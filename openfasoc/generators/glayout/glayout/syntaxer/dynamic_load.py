@@ -160,7 +160,7 @@ class CodeImportHandler:
 
 
 
-def run_glayout_code_cell(pdk: MappedPDK, glayout_code: str) -> bool:
+def run_glayout_code_cell(pdk: MappedPDK, glayout_code: str):
     """Instantiate a layout from the given glayout cell code and returns Component
 
     Args:

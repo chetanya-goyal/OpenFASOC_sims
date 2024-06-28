@@ -11,9 +11,10 @@ from typing import Union
 from glayout.flow.pdk.mappedpdk import MappedPDK
 from glayout.flow.pdk.sky130_mapped import sky130_mapped_pdk
 import glayout.syntaxer.dynamic_load
+from typing import Optional, Union
+from gdsfactory.component import Component
 
-
-def instantiate_convo(pdk: MappedPDK, convo_file: Union[str, Path]) -> bool:
+def instantiate_convo(pdk: MappedPDK, convo_file: Union[str, Path], return_component: Optional[bool] = False) -> Union[bool, Component]:
     """Instantiates a layout for the given conversation file
     
     Args:
@@ -26,6 +27,8 @@ def instantiate_convo(pdk: MappedPDK, convo_file: Union[str, Path]) -> bool:
         # convert NLP to code and pass to show_glayout_code_cell
         session_code = glayout.syntaxer.dynamic_load.run_session(load_conversation=convo_file, restore_and_exit=True)
         comp = glayout.syntaxer.dynamic_load.run_glayout_code_cell(pdk, session_code)
+        if return_component:
+            return comp
         comp.show()
         # pdk.magic_drc(comp)
         # pdk.lvs_netgen(comp)

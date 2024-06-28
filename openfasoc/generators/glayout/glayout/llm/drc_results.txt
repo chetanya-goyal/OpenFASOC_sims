@@ -1,0 +1,4655 @@
+Script started on 2024-06-28 12:10:02+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="109" LINES="16"]
+# python3 run_drc_lvs_pex.py
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/NOR.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 4 in 'NOR'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp31sh65ix/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "NOR".
+Reading "Unnamed_0c5d254a".
+Reading "Unnamed_4d3c219e".
+Reading "Unnamed_8a62a859".
+Reading "Unnamed_4d770f89".
+Reading "straight_route_66b17c5f".
+Reading "straight_route_86f37938".
+Reading "c_route_f13e033b".
+Reading "c_route_c190fe8d".
+Reading "Unnamed_8a62a859".
+Reading "straight_route_86f37938".
+Reading "Unnamed_0c5d254a".
+Reading "straight_route_66b17c5f".
+Reading "c_route_f13e033b".
+Reading "c_route_c190fe8d".
+Reading "Unnamed_4d770f89".
+Reading "Unnamed_4d3c219e".
+[INFO]: Loading NOR
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp31sh65ix/NOR.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_0c5d254a" (byte position 19242): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_4d3c219e" (byte position 58166): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "NOR" (byte position 490): Cell "Unnamed_8a62a859" was already defined in this file.
+Error while reading cell "NOR" (byte position 490): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 19110): Cell "straight_route_86f37938" was already defined in this file.
+Error while reading cell "NOR" (byte position 19110): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 19226): Cell "Unnamed_0c5d254a" was already defined in this file.
+Error while reading cell "NOR" (byte position 19226): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 37910): Cell "straight_route_66b17c5f" was already defined in this file.
+Error while reading cell "NOR" (byte position 37910): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 38026): Cell "c_route_f13e033b" was already defined in this file.
+Error while reading cell "NOR" (byte position 38026): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 38782): Cell "c_route_c190fe8d" was already defined in this file.
+Error while reading cell "NOR" (byte position 38782): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 39538): Cell "Unnamed_4d770f89" was already defined in this file.
+Error while reading cell "NOR" (byte position 39538): Ignoring duplicate definition
+Error while reading cell "NOR" (byte position 58150): Cell "Unnamed_4d3c219e" was already defined in this file.
+Error while reading cell "NOR" (byte position 58150): Ignoring duplicate definition
+
+NOR count: 
+
+----------------------------------------
+
+N-well spacing < 1.27um (nwell.2a)
+
+----------------------------------------
+
+ 2.815um 5.180um 3.680um 14.745um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+ -0.940um 9.030um -0.580um 9.290um
+
+----------------------------------------
+
+Deep N-well spacing < 6.3um (dnwell.3)
+
+----------------------------------------
+
+ 2.815um -4.780um 7.630um 0.000um
+
+ 2.815um 0.000um 7.630um 4.785um
+
+----------------------------------------
+
+Deep N-well spacing to N-well < 4.5um (nwell.7)
+
+----------------------------------------
+
+ -2.405um 0.680um 0.000um 4.785um
+
+ -1.685um 0.680um 0.000um 4.785um
+
+ -1.685um 0.680um 0.000um 4.785um
+
+ 0.000um 0.680um 2.410um 4.785um
+
+ 2.815um 0.680um 6.910um 4.785um
+
+ 2.815um 0.680um 6.910um 4.785um
+
+ 0.000um 0.680um 2.410um 4.785um
+
+ 0.000um 0.680um 2.410um 4.785um
+
+ 2.815um 0.680um 7.630um 4.785um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CurrentMirrorNtypeCommonCentroid.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 4 in 'CurrentMirrorNtypeCommonCentroid'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpw51w3c4k/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CurrentMirrorNtypeCommonCentroid".
+Reading "Unnamed_3c3ca2ee".
+Reading "Unnamed_9928bdca".
+Reading "Unnamed_ae94aa2d".
+Reading "Unnamed_9a2d4dac$1".
+Reading "straight_route_a89f1c9b".
+Reading "straight_route_94ca6cca".
+Reading "straight_route_76589d30".
+Reading "straight_route_40334de3".
+Reading "via_stack_7824ee0c".
+Reading "L_route_1e9da66b".
+Reading "L_route_6ca76720".
+Reading "L_route_266276a0".
+Reading "via_stack_d87e50c2$4".
+Reading "straight_route_0f72af11".
+Reading "straight_route_6662f980".
+Reading "L_route_78ad0aab".
+Reading "straight_route_7584f85e".
+Reading "straight_route_1f6c1a91".
+Reading "L_route_541ea0f9".
+Reading "straight_route_e0d96e99".
+Reading "c_route_74dc2063".
+Reading "straight_route_bf7ad6e9".
+Reading "c_route_07e38f6c".
+Reading "straight_route_20a38c82".
+Reading "straight_route_baf75a59".
+Reading "straight_route_5b23a30b".
+Reading "straight_route_30549e91".
+Reading "straight_route_4b782707".
+Reading "straight_route_abfaaa6d".
+Reading "straight_route_b87c433b".
+Reading "straight_route_fe7d3b34".
+Reading "straight_route_13318b84".
+Reading "straight_route_1d188009".
+Reading "straight_route_1faf49c8".
+Reading "straight_route_7387d377".
+Reading "straight_route_2f7f1664".
+Reading "straight_route_5d349cc6".
+Reading "straight_route_970a7f4a".
+Reading "Unnamed_3c3ca2ee".
+Reading "L_route_6ca76720".
+Reading "c_route_07e38f6c".
+Reading "Unnamed_ae94aa2d".
+Reading "straight_route_1faf49c8".
+Reading "straight_route_6662f980".
+Reading "L_route_541ea0f9".
+Reading "c_route_74dc2063".
+Reading "straight_route_bf7ad6e9".
+Reading "straight_route_20a38c82".
+Reading "straight_route_94ca6cca".
+Reading "straight_route_baf75a59".
+Reading "straight_route_abfaaa6d".
+Reading "Unnamed_9a2d4dac$1".
+Reading "via_stack_7824ee0c".
+Reading "straight_route_76589d30".
+Reading "straight_route_970a7f4a".
+Reading "straight_route_a89f1c9b".
+Reading "Unnamed_9928bdca".
+Reading "straight_route_40334de3".
+Reading "straight_route_5d349cc6".
+Reading "straight_route_1f6c1a91".
+Reading "straight_route_b87c433b".
+Reading "via_stack_d87e50c2$4".
+Reading "straight_route_7584f85e".
+Reading "straight_route_2f7f1664".
+Reading "straight_route_0f72af11".
+Reading "straight_route_4b782707".
+Reading "straight_route_fe7d3b34".
+Reading "straight_route_e0d96e99".
+Reading "L_route_78ad0aab".
+Reading "straight_route_13318b84".
+Reading "straight_route_7387d377".
+Reading "L_route_266276a0".
+Reading "straight_route_5b23a30b".
+Reading "straight_route_1d188009".
+Reading "L_route_1e9da66b".
+Reading "straight_route_30549e91".
+[INFO]: Loading CurrentMirrorNtypeCommonCentroid
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmpw51w3c4k/CurrentMirrorNtypeCommonCentroid.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_3c3ca2ee" (byte position 382): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_9928bdca" (byte position 65528): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_ae94aa2d" (byte position 3240): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 366): Cell "Unnamed_3c3ca2ee" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 366): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 2544): Cell "L_route_6ca76720" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 2544): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 2724): Cell "c_route_07e38f6c" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 2724): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 3224): Cell "Unnamed_ae94aa2d" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 3224): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18516): Cell "straight_route_1faf49c8" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18516): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18640): Cell "straight_route_6662f980" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18640): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18756): Cell "L_route_541ea0f9" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18756): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18936): Cell "c_route_74dc2063" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 18936): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19444): Cell "straight_route_bf7ad6e9" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19444): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19568): Cell "straight_route_20a38c82" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19568): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19692): Cell "straight_route_94ca6cca" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19692): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19816): Cell "straight_route_baf75a59" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19816): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19940): Cell "straight_route_abfaaa6d" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 19940): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 20058): Cell "Unnamed_9a2d4dac$1" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 20058): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 64896): Cell "via_stack_7824ee0c" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 64896): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65148): Cell "straight_route_76589d30" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65148): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65272): Cell "straight_route_970a7f4a" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65272): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65396): Cell "straight_route_a89f1c9b" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65396): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65512): Cell "Unnamed_9928bdca" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 65512): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 80804): Cell "straight_route_40334de3" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 80804): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 80928): Cell "straight_route_5d349cc6" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 80928): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81244): Cell "straight_route_1f6c1a91" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81244): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81368): Cell "straight_route_b87c433b" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81368): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81488): Cell "via_stack_d87e50c2$4" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81488): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81740): Cell "straight_route_7584f85e" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81740): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81864): Cell "straight_route_2f7f1664" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81864): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81988): Cell "straight_route_0f72af11" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 81988): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82112): Cell "straight_route_4b782707" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82112): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82236): Cell "straight_route_fe7d3b34" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82236): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82360): Cell "straight_route_e0d96e99" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82360): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82476): Cell "L_route_78ad0aab" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82476): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82664): Cell "straight_route_13318b84" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82664): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82788): Cell "straight_route_7387d377" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82788): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82904): Cell "L_route_266276a0" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 82904): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83092): Cell "straight_route_5b23a30b" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83092): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83216): Cell "straight_route_1d188009" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83216): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83332): Cell "L_route_1e9da66b" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83332): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83520): Cell "straight_route_30549e91" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeCommonCentroid" (byte position 83520): Ignoring duplicate definition
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/ULPD.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'ULPD'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp1bg4q6h9/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "ULPD".
+Reading "Unnamed_5986693a".
+Reading "Unnamed_c346dcb4".
+Reading "c_route_61f78f1c".
+Reading "c_route_8135f601".
+Reading "Unnamed_c346dcb4".
+Reading "Unnamed_5986693a".
+Reading "c_route_61f78f1c".
+Reading "c_route_8135f601".
+[INFO]: Loading ULPD
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp1bg4q6h9/ULPD.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_5986693a" (byte position 28094): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_c346dcb4" (byte position 330): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "ULPD" (byte position 314): Cell "Unnamed_c346dcb4" was already defined in this file.
+Error while reading cell "ULPD" (byte position 314): Ignoring duplicate definition
+Error while reading cell "ULPD" (byte position 28078): Cell "Unnamed_5986693a" was already defined in this file.
+Error while reading cell "ULPD" (byte position 28078): Ignoring duplicate definition
+Error while reading cell "ULPD" (byte position 55842): Cell "c_route_61f78f1c" was already defined in this file.
+Error while reading cell "ULPD" (byte position 55842): Ignoring duplicate definition
+Error while reading cell "ULPD" (byte position 56598): Cell "c_route_8135f601" was already defined in this file.
+Error while reading cell "ULPD" (byte position 56598): Ignoring duplicate definition
+
+ULPD count: 
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ 3.730um -0.585um 3.870um -0.565um
+
+ 3.730um -0.585um 3.870um -0.565um
+
+ 3.590um -0.445um 3.730um -0.425um
+
+ 3.590um -0.445um 3.730um -0.425um
+
+ 3.590um -1.035um 3.730um -1.020um
+
+ 3.590um -1.035um 3.730um -1.020um
+
+ 3.730um -0.895um 3.870um -0.880um
+
+ 3.730um -0.895um 3.870um -0.880um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ 4.105um 5.445um 4.575um 5.705um
+
+ 4.105um 5.445um 4.575um 5.705um
+
+ 4.105um 5.445um 4.575um 5.705um
+
+ 4.105um 5.445um 4.575um 5.705um
+
+ 4.105um 5.445um 4.575um 5.705um
+
+ 4.105um 5.445um 4.575um 5.705um
+
+----------------------------------------
+
+Deep N-well spacing < 6.3um (dnwell.3)
+
+----------------------------------------
+
+ -4.630um 5.180um 0.000um 11.085um
+
+ 0.000um 5.180um 4.630um 11.085um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/PTATVoltageGen.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'PTATVoltageGen'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp2jhzrmmx/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "PTATVoltageGen".
+Reading "Unnamed_cb896c8f".
+Reading "Unnamed_8f567265".
+Reading "c_route_6a7e8761".
+Reading "c_route_d3f1b661".
+Reading "c_route_f8bf9b51".
+Reading "c_route_6a7e8761".
+Reading "Unnamed_8f567265".
+Reading "c_route_f8bf9b51".
+Reading "c_route_d3f1b661".
+Reading "Unnamed_cb896c8f".
+[INFO]: Loading PTATVoltageGen
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp2jhzrmmx/PTATVoltageGen.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_cb896c8f" (byte position 72700): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_8f567265" (byte position 1136): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "PTATVoltageGen" (byte position 364): Cell "c_route_6a7e8761" was already defined in this file.
+Error while reading cell "PTATVoltageGen" (byte position 364): Ignoring duplicate definition
+Error while reading cell "PTATVoltageGen" (byte position 1120): Cell "Unnamed_8f567265" was already defined in this file.
+Error while reading cell "PTATVoltageGen" (byte position 1120): Ignoring duplicate definition
+Error while reading cell "PTATVoltageGen" (byte position 71172): Cell "c_route_f8bf9b51" was already defined in this file.
+Error while reading cell "PTATVoltageGen" (byte position 71172): Ignoring duplicate definition
+Error while reading cell "PTATVoltageGen" (byte position 71928): Cell "c_route_d3f1b661" was already defined in this file.
+Error while reading cell "PTATVoltageGen" (byte position 71928): Ignoring duplicate definition
+Error while reading cell "PTATVoltageGen" (byte position 72684): Cell "Unnamed_cb896c8f" was already defined in this file.
+Error while reading cell "PTATVoltageGen" (byte position 72684): Ignoring duplicate definition
+
+PTATVoltageGen count: 
+
+----------------------------------------
+
+Via1 spacing < 0.06um (via.2 - 2 * via.4a)
+
+----------------------------------------
+
+ -3.510um -4.515um -3.500um -4.255um
+
+ -3.510um -4.515um -3.500um -4.255um
+
+----------------------------------------
+
+Metal2 spacing < 0.14um (met2.2)
+
+----------------------------------------
+
+ -3.545um -7.995um -3.485um -7.855um
+
+ -3.545um -13.225um -3.485um -13.085um
+
+ -3.545um -13.225um -3.485um -13.050um
+
+ -3.545um -13.050um -3.485um -12.790um
+
+ -3.545um -12.790um -3.485um -8.290um
+
+ -3.545um -8.290um -3.485um -8.030um
+
+ -3.545um -8.030um -3.485um -7.855um
+
+ -3.685um -8.030um -3.625um -7.995um
+
+ -3.685um -8.290um -3.660um -8.030um
+
+ -3.660um -8.290um -3.625um -8.030um
+
+ -3.685um -12.790um -3.625um -8.290um
+
+ -3.685um -13.050um -3.660um -12.790um
+
+ -3.660um -13.050um -3.625um -12.790um
+
+ -3.685um -13.085um -3.625um -13.050um
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ -4.005um -0.605um -3.905um -0.585um
+
+ -4.005um -0.605um -2.835um -0.585um
+
+ -2.975um -0.605um -2.835um -0.585um
+
+ -3.905um -0.465um -2.975um -0.445um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CurrentMirrorPtypeInterdigitated.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 1 in 'CurrentMirrorPtypeInterdigitated'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmplvdx8ap1/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CurrentMirrorPtypeInterdigitated".
+Reading "transformed_6c29571b".
+Reading "Unnamed_f2c402ac$1".
+Reading "straight_route_e12f7c08".
+Reading "straight_route_befd336e".
+Reading "straight_route_36f2ce26".
+Reading "straight_route_6a8aa90f".
+Reading "straight_route_a8b8cc14".
+Reading "straight_route_f475e87f".
+Reading "straight_route_6d331bb7".
+Reading "straight_route_bd8dcb45".
+Reading "straight_route_b794c354".
+Reading "c_route_0df59792".
+Reading "via_stack_54236cf2_transformed_efa73023".
+Reading "straight_route_e12f7c08".
+Reading "straight_route_befd336e".
+Reading "straight_route_b794c354".
+Reading "via_stack_54236cf2_transformed_efa73023".
+Reading "Unnamed_f2c402ac$1".
+Reading "straight_route_bd8dcb45".
+Reading "c_route_0df59792".
+Reading "straight_route_36f2ce26".
+Reading "transformed_6c29571b".
+Reading "straight_route_6d331bb7".
+Reading "straight_route_f475e87f".
+Reading "straight_route_6a8aa90f".
+Reading "straight_route_a8b8cc14".
+[INFO]: Loading CurrentMirrorPtypeInterdigitated
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmplvdx8ap1/CurrentMirrorPtypeInterdigitated.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "transformed_6c29571b" (byte position 1258): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "transformed_6c29571b" (byte position 618): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "transformed_6c29571b" (byte position 742): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+
+CurrentMirrorPtypeInterdigitated count: 
+
+----------------------------------------
+
+N-Diffusion spacing to N-well < 0.34um (diff/tap.9)
+
+----------------------------------------
+
+ -11.805um -1.260um -11.595um -1.105um
+
+ -11.805um -1.105um -11.595um -0.935um
+
+ -11.805um -0.935um -11.595um -0.765um
+
+ -11.805um -0.765um -11.595um -0.595um
+
+ -11.805um -0.595um -11.595um -0.425um
+
+ -11.805um -0.425um -11.595um -0.255um
+
+ -11.805um -0.255um -11.595um -0.085um
+
+ -11.805um -0.085um -11.595um 0.000um
+
+ -11.805um -1.510um -11.595um -1.445um
+
+ -11.805um -1.445um -11.595um -1.275um
+
+ -11.805um -1.275um -11.595um -1.260um
+
+ -11.805um -1.840um -11.595um -1.785um
+
+ -11.805um -1.785um -11.595um -1.615um
+
+ -11.805um -1.615um -11.595um -1.510um
+
+ -11.805um -3.195um -11.595um -3.145um
+
+ -11.805um -3.145um -11.595um -2.975um
+
+ -11.805um -2.975um -11.595um -2.805um
+
+ -11.805um -2.805um -11.595um -2.635um
+
+ -11.805um -2.635um -11.595um -2.465um
+
+ -11.805um -2.465um -11.595um -2.295um
+
+ -11.805um -2.295um -11.595um -2.125um
+
+ -11.805um -2.125um -11.595um -1.955um
+
+ -11.805um -1.955um -11.595um -1.840um
+
+ -11.805um -3.360um -11.595um -3.315um
+
+ -11.805um -3.315um -11.595um -3.195um
+
+ -11.805um -3.780um -11.595um -3.655um
+
+ -11.805um -3.655um -11.595um -3.485um
+
+ -11.805um -3.485um -11.595um -3.360um
+
+ -11.805um -3.780um 0.000um -3.570um
+
+ -12.655um 4.450um 0.000um 4.630um
+
+ -12.655um 4.320um -12.475um 4.450um
+
+ -11.805um 1.490um -11.595um 1.615um
+
+ -11.805um 1.615um -11.595um 1.785um
+
+ -11.805um 1.785um -11.595um 1.955um
+
+ -11.805um 1.955um -11.595um 2.125um
+
+ -11.805um 2.125um -11.595um 2.295um
+
+ -11.805um 2.295um -11.595um 2.465um
+
+ -11.805um 2.465um -11.595um 2.635um
+
+ -11.805um 2.635um -11.595um 2.805um
+
+ -11.805um 2.805um -11.595um 2.975um
+
+ -11.805um 2.975um -11.595um 3.145um
+
+ -11.805um 3.145um -11.595um 3.315um
+
+ -11.805um 3.315um -11.595um 3.485um
+
+ -11.805um 3.485um -11.595um 3.655um
+
+ -11.805um 3.655um -11.595um 3.780um
+
+ -11.805um 1.240um -11.595um 1.275um
+
+ -11.805um 1.275um -11.595um 1.445um
+
+ -11.805um 1.445um -11.595um 1.490um
+
+ -11.805um 0.000um -11.595um 0.085um
+
+ -11.805um 0.085um -11.595um 0.255um
+
+ -11.805um 0.255um -11.595um 0.425um
+
+ -11.805um 0.425um -11.595um 0.595um
+
+ -11.805um 0.595um -11.595um 0.765um
+
+ -11.805um 0.765um -11.595um 0.935um
+
+ -11.805um 0.935um -11.595um 1.105um
+
+ -11.805um 1.105um -11.595um 1.240um
+
+ 0.000um -3.780um 6.465um -3.570um
+
+----------------------------------------
+
+Can't overlap those layers
+
+----------------------------------------
+
+ -12.475um 3.780um 6.300um 4.450um
+
+ -12.475um -3.780um -11.805um 3.780um
+
+ -12.475um -4.450um 6.300um -3.780um
+
+ -12.475um 3.780um 6.300um 4.450um
+
+ -12.475um -3.780um -11.805um 3.780um
+
+ -12.475um -4.450um 6.300um -3.780um
+
+ -6.300um 3.780um 12.475um 4.450um
+
+ 11.805um -3.780um 12.475um 3.780um
+
+ -6.300um -4.450um 12.475um -3.780um
+
+ -6.300um 3.780um 12.475um 4.450um
+
+ 11.805um -3.780um 12.475um 3.780um
+
+ -6.300um -4.450um 12.475um -3.780um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/NoiseXDiffConv.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'NoiseXDiffConv'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpm3yl2kx0/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "NoiseXDiffConv".
+Reading "Unnamed_455f4963".
+Reading "Unnamed_eddcf082".
+Reading "c_route_88980862".
+Reading "c_route_88980862".
+Reading "Unnamed_455f4963".
+Reading "Unnamed_eddcf082".
+[INFO]: Loading NoiseXDiffConv
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpm3yl2kx0/NoiseXDiffConv.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_455f4963" (byte position 1056): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_eddcf082" (byte position 71108): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "NoiseXDiffConv" (byte position 284): Cell "c_route_88980862" was already defined in this file.
+Error while reading cell "NoiseXDiffConv" (byte position 284): Ignoring duplicate definition
+Error while reading cell "NoiseXDiffConv" (byte position 1040): Cell "Unnamed_455f4963" was already defined in this file.
+Error while reading cell "NoiseXDiffConv" (byte position 1040): Ignoring duplicate definition
+Error while reading cell "NoiseXDiffConv" (byte position 71092): Cell "Unnamed_eddcf082" was already defined in this file.
+Error while reading cell "NoiseXDiffConv" (byte position 71092): Ignoring duplicate definition
+
+NoiseXDiffConv count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ 2.975um -0.585um 3.115um -0.565um
+
+ 2.975um -0.585um 3.115um -0.565um
+
+ 2.835um -0.445um 2.975um -0.425um
+
+ 2.835um -0.445um 2.975um -0.425um
+
+ 2.835um -1.035um 2.975um -1.020um
+
+ 2.835um -1.035um 2.975um -1.020um
+
+ 2.975um -0.895um 3.115um -0.880um
+
+ 2.975um -0.895um 3.115um -0.880um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/DegenCommonGate.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'DegenCommonGate'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp2_220k7p/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "DegenCommonGate".
+Reading "Unnamed_2b87b687".
+Reading "Unnamed_e9d74e0f".
+Reading "c_route_ae17b652".
+Reading "Unnamed_2b87b687".
+Reading "c_route_ae17b652".
+Reading "Unnamed_e9d74e0f".
+[INFO]: Loading DegenCommonGate
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp2_220k7p/DegenCommonGate.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_2b87b687" (byte position 302): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_e9d74e0f" (byte position 71110): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "DegenCommonGate" (byte position 286): Cell "Unnamed_2b87b687" was already defined in this file.
+Error while reading cell "DegenCommonGate" (byte position 286): Ignoring duplicate definition
+Error while reading cell "DegenCommonGate" (byte position 70338): Cell "c_route_ae17b652" was already defined in this file.
+Error while reading cell "DegenCommonGate" (byte position 70338): Ignoring duplicate definition
+Error while reading cell "DegenCommonGate" (byte position 71094): Cell "Unnamed_e9d74e0f" was already defined in this file.
+Error while reading cell "DegenCommonGate" (byte position 71094): Ignoring duplicate definition
+
+DegenCommonGate count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CasecodeCommonGateCommonCentroid.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 4 in 'CascodeCommonGateCommonCentroid'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpqxszzs_h/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CascodeCommonGateCommonCentroid".
+Reading "Unnamed_f26cfade".
+Reading "Unnamed_9779202f".
+Reading "Unnamed_9ab515a5".
+Reading "Unnamed_c04e1dfe$1".
+Reading "straight_route_3eb6e7d2".
+Reading "straight_route_1932d60c".
+Reading "straight_route_b08830dd".
+Reading "straight_route_6f54973b".
+Reading "via_stack_c63904f6".
+Reading "L_route_bb3dfc97".
+Reading "L_route_4db5c143".
+Reading "L_route_5ca8efda".
+Reading "via_stack_95f951d1$4".
+Reading "straight_route_431bbf61".
+Reading "straight_route_635c143f".
+Reading "L_route_b6054ffb".
+Reading "straight_route_f17cda80".
+Reading "straight_route_3ef1eaf0".
+Reading "L_route_aacac0f5".
+Reading "straight_route_c20d337c".
+Reading "c_route_766cf2f5".
+Reading "straight_route_c10f3025".
+Reading "c_route_86d45e4c".
+Reading "straight_route_10fbae03".
+Reading "straight_route_3998a936".
+Reading "straight_route_dde2cd48".
+Reading "straight_route_306953c0".
+Reading "straight_route_e37de1c7".
+Reading "straight_route_2a367b5e".
+Reading "straight_route_1b254001".
+Reading "straight_route_91c6abe4".
+Reading "straight_route_ed3bac46".
+Reading "straight_route_81f3d8e0".
+Reading "straight_route_f6e4cc79".
+Reading "straight_route_84afeea9".
+Reading "straight_route_11d4b579".
+Reading "straight_route_dde2cd48".
+Reading "straight_route_3998a936".
+Reading "Unnamed_c04e1dfe$1".
+Reading "straight_route_81f3d8e0".
+Reading "straight_route_635c143f".
+Reading "straight_route_f17cda80".
+Reading "via_stack_c63904f6".
+Reading "L_route_4db5c143".
+Reading "L_route_b6054ffb".
+Reading "straight_route_6f54973b".
+Reading "Unnamed_9ab515a5".
+Reading "c_route_766cf2f5".
+Reading "L_route_bb3dfc97".
+Reading "L_route_aacac0f5".
+Reading "straight_route_10fbae03".
+Reading "straight_route_ed3bac46".
+Reading "via_stack_95f951d1$4".
+Reading "straight_route_3eb6e7d2".
+Reading "straight_route_84afeea9".
+Reading "Unnamed_9779202f".
+Reading "straight_route_2a367b5e".
+Reading "straight_route_11d4b579".
+Reading "straight_route_c10f3025".
+Reading "straight_route_c20d337c".
+Reading "c_route_86d45e4c".
+Reading "straight_route_91c6abe4".
+Reading "straight_route_431bbf61".
+Reading "Unnamed_f26cfade".
+Reading "straight_route_1932d60c".
+Reading "L_route_5ca8efda".
+Reading "straight_route_e37de1c7".
+Reading "straight_route_b08830dd".
+Reading "straight_route_3ef1eaf0".
+Reading "straight_route_306953c0".
+Reading "straight_route_f6e4cc79".
+Reading "straight_route_1b254001".
+[INFO]: Loading CascodeCommonGateCommonCentroid
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmpqxszzs_h/CascodeCommonGateCommonCentroid.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_f26cfade" (byte position 79890): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_f26cfade" (byte position 63298): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_9779202f" (byte position 63362): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_f26cfade" (byte position 46410): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_9ab515a5" (byte position 46474): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_f26cfade" (byte position 470): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 63050): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 46286): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 45680): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 62194): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 45926): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 62802): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 79702): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 45432): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 46106): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 45556): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 62374): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 78954): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 61694): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 78830): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 79078): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 62554): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 346): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 222): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 78582): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 79578): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 62678): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 45308): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_f26cfade" (byte position 63174): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/DiffPair.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'DiffPair'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp077hmxra/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "DiffPair".
+Reading "Unnamed_5ff05e50".
+Reading "Unnamed_1eb16d3c".
+Reading "c_route_8fa84bfa".
+Reading "Unnamed_5ff05e50".
+Reading "c_route_8fa84bfa".
+Reading "Unnamed_1eb16d3c".
+[INFO]: Loading DiffPair
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmp077hmxra/DiffPair.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_5ff05e50" (byte position 294): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_1eb16d3c" (byte position 71102): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "DiffPair" (byte position 278): Cell "Unnamed_5ff05e50" was already defined in this file.
+Error while reading cell "DiffPair" (byte position 278): Ignoring duplicate definition
+Error while reading cell "DiffPair" (byte position 70330): Cell "c_route_8fa84bfa" was already defined in this file.
+Error while reading cell "DiffPair" (byte position 70330): Ignoring duplicate definition
+Error while reading cell "DiffPair" (byte position 71086): Cell "Unnamed_1eb16d3c" was already defined in this file.
+Error while reading cell "DiffPair" (byte position 71086): Ignoring duplicate definition
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/Varactor.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'Varactor'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmprxabluhi/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "Varactor".
+Reading "Unnamed_f61b1657".
+Reading "Unnamed_f56a3160".
+Reading "c_route_bfed85f5".
+Reading "c_route_59f0a4c5".
+Reading "c_route_23cf9894".
+Reading "c_route_59f0a4c5".
+Reading "Unnamed_f56a3160".
+Reading "c_route_bfed85f5".
+Reading "c_route_23cf9894".
+Reading "Unnamed_f61b1657".
+[INFO]: Loading Varactor
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmprxabluhi/Varactor.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_f61b1657" (byte position 30406): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_f56a3160" (byte position 1130): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Varactor" (byte position 358): Cell "c_route_59f0a4c5" was already defined in this file.
+Error while reading cell "Varactor" (byte position 358): Ignoring duplicate definition
+Error while reading cell "Varactor" (byte position 1114): Cell "Unnamed_f56a3160" was already defined in this file.
+Error while reading cell "Varactor" (byte position 1114): Ignoring duplicate definition
+Error while reading cell "Varactor" (byte position 28878): Cell "c_route_bfed85f5" was already defined in this file.
+Error while reading cell "Varactor" (byte position 28878): Ignoring duplicate definition
+Error while reading cell "Varactor" (byte position 29634): Cell "c_route_23cf9894" was already defined in this file.
+Error while reading cell "Varactor" (byte position 29634): Ignoring duplicate definition
+Error while reading cell "Varactor" (byte position 30390): Cell "Unnamed_f61b1657" was already defined in this file.
+Error while reading cell "Varactor" (byte position 30390): Ignoring duplicate definition
+
+Varactor count: 
+
+----------------------------------------
+
+Metal2 spacing < 0.14um (met2.2)
+
+----------------------------------------
+
+ -2.170um 0.260um 0.000um 0.295um
+
+ -2.170um 0.255um -2.135um 0.260um
+
+ -2.135um 0.255um -1.875um 0.260um
+
+ -1.875um 0.255um 0.000um 0.260um
+
+ -2.170um 0.430um -2.135um 0.435um
+
+ -2.135um 0.430um -1.875um 0.435um
+
+ -1.875um 0.430um 0.000um 0.435um
+
+ -2.170um 0.395um 0.000um 0.430um
+
+ 0.000um 0.260um 4.070um 0.295um
+
+ 0.000um 0.255um 4.070um 0.260um
+
+ 0.000um 0.430um 4.070um 0.435um
+
+ 0.000um 0.395um 4.070um 0.430um
+
+ 4.400um 0.260um 5.260um 0.295um
+
+ 4.400um 0.255um 5.260um 0.260um
+
+ 5.590um 0.260um 6.460um 0.295um
+
+ 5.590um 0.255um 6.460um 0.260um
+
+ 6.790um 0.260um 13.340um 0.295um
+
+ 6.790um 0.255um 13.045um 0.260um
+
+ 13.045um 0.255um 13.305um 0.260um
+
+ 13.305um 0.255um 13.340um 0.260um
+
+ 4.400um 0.430um 5.260um 0.435um
+
+ 4.400um 0.395um 5.260um 0.430um
+
+ 5.590um 0.430um 6.460um 0.435um
+
+ 5.590um 0.395um 6.460um 0.430um
+
+ 6.790um 0.430um 13.045um 0.435um
+
+ 13.045um 0.430um 13.305um 0.435um
+
+ 13.305um 0.430um 13.340um 0.435um
+
+ 6.790um 0.395um 13.340um 0.430um
+
+----------------------------------------
+
+Deep N-well spacing < 6.3um (dnwell.3)
+
+----------------------------------------
+
+ 5.030um -4.780um 10.930um 0.000um
+
+ 5.030um 0.000um 10.930um 4.785um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CascodeCommonSource.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CascodeCommonSource'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpd5ra1el0/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CascodeCommonSource".
+Reading "Unnamed_35939393".
+Reading "Unnamed_c295629b".
+Reading "c_route_608f0246".
+Reading "c_route_608f0246".
+Reading "Unnamed_35939393".
+Reading "Unnamed_c295629b".
+[INFO]: Loading CascodeCommonSource
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpd5ra1el0/CascodeCommonSource.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_35939393" (byte position 1062): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_c295629b" (byte position 71114): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CascodeCommonSource" (byte position 290): Cell "c_route_608f0246" was already defined in this file.
+Error while reading cell "CascodeCommonSource" (byte position 290): Ignoring duplicate definition
+Error while reading cell "CascodeCommonSource" (byte position 1046): Cell "Unnamed_35939393" was already defined in this file.
+Error while reading cell "CascodeCommonSource" (byte position 1046): Ignoring duplicate definition
+Error while reading cell "CascodeCommonSource" (byte position 71098): Cell "Unnamed_c295629b" was already defined in this file.
+Error while reading cell "CascodeCommonSource" (byte position 71098): Ignoring duplicate definition
+
+CascodeCommonSource count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/MimcapArray.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 1 in 'MimcapArray'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp40720dsl/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "MimcapArray".
+Reading "Unnamed_67b04f8f".
+Reading "Unnamed_67b04f8f".
+[INFO]: Loading MimcapArray
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmp40720dsl/MimcapArray.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "MimcapArray" (byte position 202): Cell "Unnamed_67b04f8f" was already defined in this file.
+Error while reading cell "MimcapArray" (byte position 202): Ignoring duplicate definition
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CascodeCommonGate.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CascodeCommonGate'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp_s_f3vf2/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CascodeCommonGate".
+Reading "Unnamed_247f17b8".
+Reading "Unnamed_09da90b5".
+Reading "c_route_ca0a82a8".
+Reading "Unnamed_09da90b5".
+Reading "Unnamed_247f17b8".
+Reading "c_route_ca0a82a8".
+[INFO]: Loading CascodeCommonGate
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp_s_f3vf2/CascodeCommonGate.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_247f17b8" (byte position 70356): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_09da90b5" (byte position 304): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CascodeCommonGate" (byte position 288): Cell "Unnamed_09da90b5" was already defined in this file.
+Error while reading cell "CascodeCommonGate" (byte position 288): Ignoring duplicate definition
+Error while reading cell "CascodeCommonGate" (byte position 70340): Cell "Unnamed_247f17b8" was already defined in this file.
+Error while reading cell "CascodeCommonGate" (byte position 70340): Ignoring duplicate definition
+Error while reading cell "CascodeCommonGate" (byte position 140392): Cell "c_route_ca0a82a8" was already defined in this file.
+Error while reading cell "CascodeCommonGate" (byte position 140392): Ignoring duplicate definition
+
+CascodeCommonGate count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CommonSourceAmplifierWDiodeLoad.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CommonSourceAmplifierWDiodeLoad'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpdhxcq7_h/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CommonSourceAmplifierWDiodeLoad".
+Reading "Unnamed_1c55a9bb".
+Reading "Unnamed_0c30eb38".
+Reading "c_route_46c06ab1".
+Reading "c_route_d7f60fde".
+Reading "Unnamed_1c55a9bb".
+Reading "c_route_46c06ab1".
+Reading "c_route_d7f60fde".
+Reading "Unnamed_0c30eb38".
+[INFO]: Loading CommonSourceAmplifierWDiodeLoad
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpdhxcq7_h/CommonSourceAmplifierWDiodeLoad.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_1c55a9bb" (byte position 358): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_0c30eb38" (byte position 71922): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 342): Cell "Unnamed_1c55a9bb" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 342): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 70394): Cell "c_route_46c06ab1" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 70394): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 71150): Cell "c_route_d7f60fde" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 71150): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 71906): Cell "Unnamed_0c30eb38" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierWDiodeLoad" (byte position 71906): Ignoring duplicate definition
+
+CommonSourceAmplifierWDiodeLoad count: 
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ 2.835um -0.605um 2.975um -0.585um
+
+ 2.835um -0.605um 2.975um -0.585um
+
+ 2.975um -0.465um 3.115um -0.445um
+
+ 2.975um -0.465um 3.115um -0.445um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CrossCoupledInverters.convo
+/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/flow/routing/smart_route.py:40: UserWarning: Attempted a specialized smart route, but failed. Now attempting general smart route...
+  warnings.warn("Attempted a specialized smart route, but failed. Now attempting general smart route...")
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 4 in 'CrossCoupledInverters'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpdrmqc3k4/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CrossCoupledInverters".
+Reading "Unnamed_09cc30b4".
+Reading "transformed_184cd275".
+Reading "Unnamed_33e5959c$1".
+Reading "straight_route_7bc6f0e7".
+Reading "straight_route_f85cebbf".
+Reading "transformed_9f63c569".
+Reading "Unnamed_f876ef6d$1".
+Reading "straight_route_7bc6f0e7$1".
+Reading "straight_route_f85cebbf$1".
+Reading "Unnamed_182308f2".
+Reading "straight_route_6978b190".
+Reading "straight_route_0d7e158b".
+Reading "straight_route_9da4caaa".
+Reading "straight_route_7a584df7".
+Reading "straight_route_05427b1e".
+Reading "straight_route_908ac302".
+Reading "c_route_cab12b88".
+Reading "straight_route_5556d7b7".
+Reading "straight_route_4b86f420".
+Reading "straight_route_1f523037".
+Reading "straight_route_0d243b62".
+Reading "straight_route_e7301567".
+Reading "straight_route_8b4f1765".
+Reading "c_route_bd599d48".
+Reading "straight_route_bc7b7249".
+Reading "straight_route_113091f9".
+Reading "straight_route_6b3f5bac".
+Reading "straight_route_0d5d672f".
+Reading "straight_route_e1cdf958".
+Reading "straight_route_614b666a".
+Reading "c_route_e0acf3f2".
+Reading "straight_route_c920b406".
+Reading "straight_route_8af5bfd2".
+Reading "straight_route_c7ee1ff5".
+Reading "straight_route_b439d6ad".
+Reading "straight_route_5a83c123".
+Reading "straight_route_a730d31f".
+Reading "c_route_319d6e1e".
+Reading "c_route_f16d1b3b".
+Reading "c_route_6bcae998".
+Reading "straight_route_6b3f5bac".
+Reading "straight_route_0d5d672f".
+Reading "straight_route_7bc6f0e7$1".
+Reading "straight_route_1f523037".
+Reading "straight_route_c7ee1ff5".
+Reading "c_route_f16d1b3b".
+Reading "straight_route_5a83c123".
+Reading "straight_route_e7301567".
+Reading "transformed_184cd275".
+Reading "straight_route_4b86f420".
+Reading "c_route_6bcae998".
+Reading "straight_route_9da4caaa".
+Reading "straight_route_05427b1e".
+Reading "straight_route_b439d6ad".
+Reading "Unnamed_09cc30b4".
+Reading "straight_route_a730d31f".
+Reading "straight_route_6978b190".
+Reading "straight_route_614b666a".
+Reading "straight_route_e1cdf958".
+Reading "straight_route_113091f9".
+Reading "straight_route_0d7e158b".
+Reading "straight_route_f85cebbf".
+Reading "straight_route_7a584df7".
+Reading "c_route_cab12b88".
+Reading "straight_route_0d243b62".
+Reading "straight_route_908ac302".
+Reading "straight_route_c920b406".
+Reading "c_route_319d6e1e".
+Reading "Unnamed_182308f2".
+Reading "straight_route_8b4f1765".
+Reading "transformed_9f63c569".
+Reading "straight_route_bc7b7249".
+Reading "straight_route_7bc6f0e7".
+Reading "Unnamed_f876ef6d$1".
+Reading "straight_route_5556d7b7".
+Reading "straight_route_f85cebbf$1".
+Reading "straight_route_8af5bfd2".
+Reading "c_route_e0acf3f2".
+Reading "Unnamed_33e5959c$1".
+Reading "c_route_bd599d48".
+[INFO]: Loading CrossCoupledInverters
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpdrmqc3k4/CrossCoupledInverters.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_09cc30b4" (byte position 3182): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "transformed_9f63c569" (byte position 143784): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "transformed_9f63c569" (byte position 1804): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+
+CrossCoupledInverters count: 
+
+----------------------------------------
+
+N-Diffusion spacing to N-well < 0.34um (diff/tap.9)
+
+----------------------------------------
+
+ -12.655um 9.765um -0.665um 9.945um
+
+ -12.655um 9.635um -12.475um 9.765um
+
+ -11.805um 6.810um -11.595um 6.855um
+
+ -11.805um 6.855um -11.595um 7.025um
+
+ -11.805um 7.025um -11.595um 7.195um
+
+ -11.805um 7.195um -11.595um 7.365um
+
+ -11.805um 7.365um -11.595um 7.535um
+
+ -11.805um 7.535um -11.595um 7.705um
+
+ -11.805um 7.705um -11.595um 7.875um
+
+ -11.805um 7.875um -11.595um 8.045um
+
+ -11.805um 8.045um -11.595um 8.215um
+
+ -11.805um 8.215um -11.595um 8.385um
+
+ -11.805um 8.385um -11.595um 8.555um
+
+ -11.805um 8.555um -11.595um 8.725um
+
+ -11.805um 8.725um -11.595um 8.895um
+
+ -11.805um 8.895um -11.595um 9.095um
+
+ -11.805um 6.560um -11.595um 6.685um
+
+ -11.805um 6.685um -11.595um 6.810um
+
+ -11.805um 3.560um -11.595um 3.625um
+
+ -11.805um 3.625um -11.595um 3.795um
+
+ -11.805um 3.795um -11.595um 3.965um
+
+ -11.805um 3.965um -11.595um 4.135um
+
+ -11.805um 4.135um -11.595um 4.305um
+
+ -11.805um 4.305um -11.595um 4.475um
+
+ -11.805um 4.475um -11.595um 4.645um
+
+ -11.805um 4.645um -11.595um 4.815um
+
+ -11.805um 4.815um -11.595um 4.985um
+
+ -11.805um 4.985um -11.595um 5.155um
+
+ -11.805um 5.155um -11.595um 5.325um
+
+ -11.805um 5.325um -11.595um 5.495um
+
+ -11.805um 5.495um -11.595um 5.665um
+
+ -11.805um 5.665um -11.595um 5.835um
+
+ -11.805um 5.835um -11.595um 6.005um
+
+ -11.805um 6.005um -11.595um 6.175um
+
+ -11.805um 6.175um -11.595um 6.345um
+
+ -11.805um 6.345um -11.595um 6.515um
+
+ -11.805um 6.515um -11.595um 6.560um
+
+ -11.805um 3.310um -11.595um 3.455um
+
+ -11.805um 3.455um -11.595um 3.560um
+
+ -11.805um 2.980um -11.595um 3.115um
+
+ -11.805um 3.115um -11.595um 3.285um
+
+ -11.805um 3.285um -11.595um 3.310um
+
+ -11.805um 1.625um -11.595um 1.755um
+
+ -11.805um 1.755um -11.595um 1.925um
+
+ -11.805um 1.925um -11.595um 2.095um
+
+ -11.805um 2.095um -11.595um 2.265um
+
+ -11.805um 2.265um -11.595um 2.435um
+
+ -11.805um 2.435um -11.595um 2.605um
+
+ -11.805um 2.605um -11.595um 2.775um
+
+ -11.805um 2.775um -11.595um 2.945um
+
+ -11.805um 2.945um -11.595um 2.980um
+
+ -11.805um 1.460um -11.595um 1.585um
+
+ -11.805um 1.585um -11.595um 1.625um
+
+ -11.805um 1.045um -11.595um 1.245um
+
+ -11.805um 1.245um -11.595um 1.415um
+
+ -11.805um 1.415um -11.595um 1.460um
+
+ -11.805um 1.045um -0.665um 1.255um
+
+ 0.665um 9.765um 12.345um 9.945um
+
+ 0.665um 1.045um 11.805um 1.255um
+
+ 12.475um 0.505um 12.655um 0.625um
+
+ 12.475um 0.625um 12.655um 0.795um
+
+ 12.475um 0.795um 12.655um 0.915um
+
+ 12.475um 0.915um 12.655um 1.245um
+
+ 12.475um 1.245um 12.655um 1.415um
+
+ 12.475um 1.415um 12.655um 1.585um
+
+ 12.475um 1.585um 12.655um 1.755um
+
+ 12.475um 1.755um 12.655um 1.925um
+
+ 12.475um 1.925um 12.655um 2.095um
+
+ 12.475um 2.095um 12.655um 2.265um
+
+ 12.475um 2.265um 12.655um 2.435um
+
+ 12.475um 2.435um 12.655um 2.605um
+
+ 12.475um 2.605um 12.655um 2.775um
+
+ 12.475um 2.775um 12.655um 2.945um
+
+ 12.475um 2.945um 12.655um 3.115um
+
+ 12.475um 3.115um 12.655um 3.285um
+
+ 12.475um 3.285um 12.655um 3.455um
+
+ 12.475um 3.455um 12.655um 3.625um
+
+ 12.475um 3.625um 12.655um 3.795um
+
+ 12.475um 3.795um 12.655um 3.965um
+
+ 12.475um 3.965um 12.655um 4.135um
+
+ 12.475um 4.135um 12.655um 4.305um
+
+ 12.475um 4.305um 12.655um 4.475um
+
+ 12.475um 4.475um 12.655um 4.645um
+
+ 12.475um 4.645um 12.655um 4.815um
+
+ 12.475um 4.815um 12.655um 4.985um
+
+ 12.475um 4.985um 12.655um 5.155um
+
+ 12.475um 5.155um 12.655um 5.325um
+
+ 12.475um 5.325um 12.655um 5.495um
+
+ 12.475um 5.495um 12.655um 5.665um
+
+ 12.475um 5.665um 12.655um 5.835um
+
+ 12.475um 5.835um 12.655um 6.005um
+
+ 12.475um 6.005um 12.655um 6.175um
+
+ 12.475um 6.175um 12.655um 6.345um
+
+ 12.475um 6.345um 12.655um 6.515um
+
+ 12.475um 6.515um 12.655um 6.685um
+
+ 12.475um 6.685um 12.655um 6.855um
+
+ 12.475um 6.855um 12.655um 7.025um
+
+ 12.475um 7.025um 12.655um 7.195um
+
+ 12.475um 7.195um 12.655um 7.365um
+
+ 12.475um 7.365um 12.655um 7.535um
+
+ 12.475um 7.535um 12.655um 7.705um
+
+ 12.475um 7.705um 12.655um 7.875um
+
+ 12.475um 7.875um 12.655um 8.045um
+
+ 12.475um 8.045um 12.655um 8.215um
+
+ 12.475um 8.215um 12.655um 8.385um
+
+ 12.475um 8.385um 12.655um 8.555um
+
+ 12.475um 8.555um 12.655um 8.725um
+
+ 12.475um 8.725um 12.655um 8.895um
+
+ 12.475um 8.895um 12.655um 9.225um
+
+ 12.475um 9.225um 12.655um 9.345um
+
+ 12.475um 9.345um 12.655um 9.515um
+
+ 12.345um 9.765um 12.655um 9.945um
+
+ 12.475um 9.515um 12.655um 9.765um
+
+----------------------------------------
+
+Can't overlap those layers
+
+----------------------------------------
+
+ -12.475um 1.045um -11.805um 6.300um
+
+ -12.475um 0.375um 5.635um 1.045um
+
+ -12.475um 9.095um 5.635um 9.765um
+
+ -12.475um 1.045um -11.805um 9.095um
+
+ -12.475um 0.375um 5.635um 1.045um
+
+ 11.805um 1.045um 12.475um 6.300um
+
+ -5.635um 0.375um 12.475um 1.045um
+
+ -5.635um 9.095um 12.475um 9.765um
+
+ 11.805um 1.045um 12.475um 9.095um
+
+ -5.635um 0.375um 12.475um 1.045um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/SourceFollow.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'SourceFollow'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp106s_xmk/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "SourceFollow".
+Reading "Unnamed_177d8f7a".
+Reading "Unnamed_e6ea0dc9".
+Reading "c_route_b0731f50".
+Reading "Unnamed_177d8f7a".
+Reading "Unnamed_e6ea0dc9".
+Reading "c_route_b0731f50".
+[INFO]: Loading SourceFollow
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp106s_xmk/SourceFollow.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_177d8f7a" (byte position 298): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_e6ea0dc9" (byte position 28062): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "SourceFollow" (byte position 282): Cell "Unnamed_177d8f7a" was already defined in this file.
+Error while reading cell "SourceFollow" (byte position 282): Ignoring duplicate definition
+Error while reading cell "SourceFollow" (byte position 28046): Cell "Unnamed_e6ea0dc9" was already defined in this file.
+Error while reading cell "SourceFollow" (byte position 28046): Ignoring duplicate definition
+Error while reading cell "SourceFollow" (byte position 55810): Cell "c_route_b0731f50" was already defined in this file.
+Error while reading cell "SourceFollow" (byte position 55810): Ignoring duplicate definition
+
+SourceFollow count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+----------------------------------------
+
+Deep N-well spacing < 6.3um (dnwell.3)
+
+----------------------------------------
+
+ -4.630um -4.780um 0.000um 0.000um
+
+ -4.630um 0.000um 0.000um 1.125um
+
+ 0.000um -4.780um 4.630um 0.000um
+
+ 0.000um 0.000um 4.630um 1.125um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/ClassBPushPull.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'ClassBPushPull'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpgrfkf32j/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "ClassBPushPull".
+Reading "Unnamed_53e941af".
+Reading "Unnamed_f12e0b3f".
+Reading "c_route_f9e9834d".
+Reading "c_route_44639b17".
+Reading "c_route_f9e9834d".
+Reading "c_route_44639b17".
+Reading "Unnamed_53e941af".
+Reading "Unnamed_f12e0b3f".
+[INFO]: Loading ClassBPushPull
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpgrfkf32j/ClassBPushPull.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_53e941af" (byte position 1852): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "ClassBPushPull" (byte position 324): Cell "c_route_f9e9834d" was already defined in this file.
+Error while reading cell "ClassBPushPull" (byte position 324): Ignoring duplicate definition
+Error while reading cell "ClassBPushPull" (byte position 1080): Cell "c_route_44639b17" was already defined in this file.
+Error while reading cell "ClassBPushPull" (byte position 1080): Ignoring duplicate definition
+Error while reading cell "ClassBPushPull" (byte position 1836): Cell "Unnamed_53e941af" was already defined in this file.
+Error while reading cell "ClassBPushPull" (byte position 1836): Ignoring duplicate definition
+Error while reading cell "ClassBPushPull" (byte position 71888): Cell "Unnamed_f12e0b3f" was already defined in this file.
+Error while reading cell "ClassBPushPull" (byte position 71888): Ignoring duplicate definition
+
+ClassBPushPull count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -12.920um -3.660um -12.780um
+
+ -3.920um -12.780um -3.560um -12.660um
+
+ -3.920um -12.920um -3.660um -12.780um
+
+ -3.920um -12.780um -3.560um -12.660um
+
+ -3.920um -12.780um -3.560um -12.660um
+
+ -3.820um -12.660um -3.560um -12.520um
+
+ -3.920um -12.780um -3.560um -12.660um
+
+ -3.820um -12.660um -3.560um -12.520um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.350um -16.505um 3.610um -16.405um
+
+ 3.250um -16.405um 3.610um -16.245um
+
+ 3.350um -16.505um 3.610um -16.405um
+
+ 3.250um -16.405um 3.610um -16.245um
+
+ 3.250um -16.245um 3.510um -16.145um
+
+ 3.250um -16.405um 3.610um -16.245um
+
+ 3.250um -16.245um 3.510um -16.145um
+
+ 3.250um -16.405um 3.610um -16.245um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.920um -12.660um -3.820um -12.575um
+
+ 3.510um -16.245um 3.610um -16.160um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CommonSourceAmplifier.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CommonSourceAmplifier'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpent_4c13/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CommonSourceAmplifier".
+Reading "Unnamed_2c444853".
+Reading "Unnamed_2acc3723".
+Reading "c_route_978d8418".
+Reading "Unnamed_2acc3723".
+Reading "Unnamed_2c444853".
+Reading "c_route_978d8418".
+[INFO]: Loading CommonSourceAmplifier
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpent_4c13/CommonSourceAmplifier.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_2c444853" (byte position 69336): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CommonSourceAmplifier" (byte position 292): Cell "Unnamed_2acc3723" was already defined in this file.
+Error while reading cell "CommonSourceAmplifier" (byte position 292): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifier" (byte position 69320): Cell "Unnamed_2c444853" was already defined in this file.
+Error while reading cell "CommonSourceAmplifier" (byte position 69320): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifier" (byte position 139372): Cell "c_route_978d8418" was already defined in this file.
+Error while reading cell "CommonSourceAmplifier" (byte position 139372): Ignoring duplicate definition
+
+CommonSourceAmplifier count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.660um -0.790um
+
+ -3.920um -0.790um -3.560um -0.670um
+
+ -3.920um -0.930um -3.660um -0.790um
+
+ -3.920um -0.790um -3.560um -0.670um
+
+ -3.920um -0.790um -3.560um -0.670um
+
+ -3.820um -0.670um -3.560um -0.530um
+
+ -3.920um -0.790um -3.560um -0.670um
+
+ -3.820um -0.670um -3.560um -0.530um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.920um -0.670um -3.820um -0.585um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CurrentMirrorNtype.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CurrentMirrorNtype'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpxp8ceqrp/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CurrentMirrorNtype".
+Reading "Unnamed_fa29bb55".
+Reading "Unnamed_5bec0f7f".
+Reading "straight_route_6a774567".
+Reading "c_route_e4162d2d".
+Reading "straight_route_3b7aa476".
+Reading "Unnamed_fa29bb55".
+Reading "straight_route_6a774567".
+Reading "straight_route_3b7aa476".
+Reading "Unnamed_5bec0f7f".
+Reading "c_route_e4162d2d".
+[INFO]: Loading CurrentMirrorNtype
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpxp8ceqrp/CurrentMirrorNtype.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_fa29bb55" (byte position 400): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_5bec0f7f" (byte position 70700): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CurrentMirrorNtype" (byte position 384): Cell "Unnamed_fa29bb55" was already defined in this file.
+Error while reading cell "CurrentMirrorNtype" (byte position 384): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtype" (byte position 70444): Cell "straight_route_6a774567" was already defined in this file.
+Error while reading cell "CurrentMirrorNtype" (byte position 70444): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtype" (byte position 70568): Cell "straight_route_3b7aa476" was already defined in this file.
+Error while reading cell "CurrentMirrorNtype" (byte position 70568): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtype" (byte position 70684): Cell "Unnamed_5bec0f7f" was already defined in this file.
+Error while reading cell "CurrentMirrorNtype" (byte position 70684): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtype" (byte position 140736): Cell "c_route_e4162d2d" was already defined in this file.
+Error while reading cell "CurrentMirrorNtype" (byte position 140736): Ignoring duplicate definition
+
+CurrentMirrorNtype count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ 20.470um -4.515um 20.730um -4.395um
+
+ 20.470um -4.395um 20.940um -4.255um
+
+ 20.470um -4.515um 20.730um -4.395um
+
+ 20.470um -4.395um 20.940um -4.255um
+
+ 20.470um -4.395um 20.940um -4.255um
+
+ 20.680um -4.255um 20.940um -4.135um
+
+ 20.470um -4.395um 20.940um -4.255um
+
+ 20.680um -4.255um 20.940um -4.135um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ 20.595um -4.170um 20.680um -4.135um
+
+ 20.470um -4.250um 20.680um -4.170um
+
+ 20.470um -4.255um 20.680um -4.250um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CTATVGen.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CTATVGen'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpvllttl68/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CTATVGen".
+Reading "Unnamed_395365b3".
+Reading "Unnamed_ade500de".
+Reading "c_route_80151ccd".
+Reading "Unnamed_ade500de".
+Reading "c_route_80151ccd".
+Reading "Unnamed_395365b3".
+[INFO]: Loading CTATVGen
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpvllttl68/CTATVGen.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_395365b3" (byte position 71102): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_ade500de" (byte position 294): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CTATVGen" (byte position 278): Cell "Unnamed_ade500de" was already defined in this file.
+Error while reading cell "CTATVGen" (byte position 278): Ignoring duplicate definition
+Error while reading cell "CTATVGen" (byte position 70330): Cell "c_route_80151ccd" was already defined in this file.
+Error while reading cell "CTATVGen" (byte position 70330): Ignoring duplicate definition
+Error while reading cell "CTATVGen" (byte position 71086): Cell "Unnamed_395365b3" was already defined in this file.
+Error while reading cell "CTATVGen" (byte position 71086): Ignoring duplicate definition
+
+CTATVGen count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -13.050um -3.660um -12.910um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.920um -13.050um -3.660um -12.910um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.820um -12.790um -3.560um -12.650um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.820um -12.790um -3.560um -12.650um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.920um -12.790um -3.820um -12.705um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/LowNoiseAmp.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'LowNoiseAmp'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp8kgegwl3/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "LowNoiseAmp".
+Reading "Unnamed_93e9b8d4".
+Reading "Unnamed_12d16e4f".
+Reading "c_route_47d131bf".
+Reading "c_route_93999fef".
+Reading "Unnamed_93e9b8d4".
+Reading "Unnamed_12d16e4f".
+Reading "c_route_47d131bf".
+Reading "c_route_93999fef".
+[INFO]: Loading LowNoiseAmp
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp8kgegwl3/LowNoiseAmp.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_93e9b8d4" (byte position 338): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_12d16e4f" (byte position 70390): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "LowNoiseAmp" (byte position 322): Cell "Unnamed_93e9b8d4" was already defined in this file.
+Error while reading cell "LowNoiseAmp" (byte position 322): Ignoring duplicate definition
+Error while reading cell "LowNoiseAmp" (byte position 70374): Cell "Unnamed_12d16e4f" was already defined in this file.
+Error while reading cell "LowNoiseAmp" (byte position 70374): Ignoring duplicate definition
+Error while reading cell "LowNoiseAmp" (byte position 140426): Cell "c_route_47d131bf" was already defined in this file.
+Error while reading cell "LowNoiseAmp" (byte position 140426): Ignoring duplicate definition
+Error while reading cell "LowNoiseAmp" (byte position 141182): Cell "c_route_93999fef" was already defined in this file.
+Error while reading cell "LowNoiseAmp" (byte position 141182): Ignoring duplicate definition
+
+LowNoiseAmp count: 
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ 2.975um -12.705um 3.115um -12.685um
+
+ 2.975um -12.705um 3.115um -12.685um
+
+ 2.835um -12.565um 2.975um -12.545um
+
+ 2.835um -12.565um 2.975um -12.545um
+
+ 2.835um -13.155um 2.975um -13.140um
+
+ 2.835um -13.155um 2.975um -13.140um
+
+ 2.975um -13.015um 3.115um -13.000um
+
+ 2.975um -13.015um 3.115um -13.000um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+ 3.350um -4.515um 3.820um -4.255um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/PTypeDiffPair.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'PTypeDiffPair'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpws5jk_u1/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "PTypeDiffPair".
+Reading "Unnamed_64768f35".
+Reading "Unnamed_7153916d".
+Reading "straight_route_0840093c".
+Reading "straight_route_0840093c".
+Reading "Unnamed_7153916d".
+Reading "Unnamed_64768f35".
+[INFO]: Loading PTypeDiffPair
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpws5jk_u1/PTypeDiffPair.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "PTypeDiffPair" (byte position 300): Cell "straight_route_0840093c" was already defined in this file.
+Error while reading cell "PTypeDiffPair" (byte position 300): Ignoring duplicate definition
+Error while reading cell "PTypeDiffPair" (byte position 416): Cell "Unnamed_7153916d" was already defined in this file.
+Error while reading cell "PTypeDiffPair" (byte position 416): Ignoring duplicate definition
+Error while reading cell "PTypeDiffPair" (byte position 69444): Cell "Unnamed_64768f35" was already defined in this file.
+Error while reading cell "PTypeDiffPair" (byte position 69444): Ignoring duplicate definition
+
+PTypeDiffPair count: 
+
+----------------------------------------
+
+N-well spacing < 1.27um (nwell.2a)
+
+----------------------------------------
+
+ -8.230um -5.730um -7.360um 0.000um
+
+ -8.230um 0.000um -7.360um 5.730um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CascodeCommonSourceInterdigitated.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 1 in 'CascodeCommonSourceInterdigitated'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpg2sr6fzs/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CascodeCommonSourceInterdigitated".
+Reading "transformed_2efcfd97".
+Reading "Unnamed_2d492f4a$1".
+Reading "straight_route_09ad88ae".
+Reading "straight_route_b869b9bb".
+Reading "via_stack_2eea0614_transformed_acdb43e7".
+Reading "Unnamed_2d492f4a$1".
+Reading "transformed_2efcfd97".
+Reading "straight_route_b869b9bb".
+Reading "via_stack_2eea0614_transformed_acdb43e7".
+Reading "straight_route_09ad88ae".
+[INFO]: Loading CascodeCommonSourceInterdigitated
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmpg2sr6fzs/CascodeCommonSourceInterdigitated.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "transformed_2efcfd97" (byte position 75550): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "transformed_2efcfd97" (byte position 244): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CurrentMirrorPtype.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CurrentMirrorPtype'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmp0c066k_2/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CurrentMirrorPtype".
+Reading "Unnamed_b9653b1e".
+Reading "Unnamed_4265e38c".
+Reading "straight_route_d50fc736".
+Reading "c_route_214733fe".
+Reading "straight_route_16f92e81".
+Reading "straight_route_16f92e81".
+Reading "Unnamed_b9653b1e".
+Reading "Unnamed_4265e38c".
+Reading "straight_route_d50fc736".
+Reading "c_route_214733fe".
+[INFO]: Loading CurrentMirrorPtype
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmp0c066k_2/CurrentMirrorPtype.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "CurrentMirrorPtype" (byte position 392): Cell "straight_route_16f92e81" was already defined in this file.
+Error while reading cell "CurrentMirrorPtype" (byte position 392): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorPtype" (byte position 508): Cell "Unnamed_b9653b1e" was already defined in this file.
+Error while reading cell "CurrentMirrorPtype" (byte position 508): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorPtype" (byte position 69536): Cell "Unnamed_4265e38c" was already defined in this file.
+Error while reading cell "CurrentMirrorPtype" (byte position 69536): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorPtype" (byte position 138572): Cell "straight_route_d50fc736" was already defined in this file.
+Error while reading cell "CurrentMirrorPtype" (byte position 138572): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorPtype" (byte position 138688): Cell "c_route_214733fe" was already defined in this file.
+Error while reading cell "CurrentMirrorPtype" (byte position 138688): Ignoring duplicate definition
+
+CurrentMirrorPtype count: 
+
+----------------------------------------
+
+N-well spacing < 1.27um (nwell.2a)
+
+----------------------------------------
+
+ 8.630um -5.730um 9.500um 0.000um
+
+ 8.630um 0.000um 9.500um 5.730um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ 20.210um -4.515um 20.470um -4.395um
+
+ 20.210um -4.395um 20.680um -4.255um
+
+ 20.210um -4.515um 20.470um -4.395um
+
+ 20.210um -4.395um 20.680um -4.255um
+
+ 20.210um -4.395um 20.680um -4.255um
+
+ 20.420um -4.255um 20.680um -4.135um
+
+ 20.210um -4.395um 20.680um -4.255um
+
+ 20.420um -4.255um 20.680um -4.135um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ 20.335um -4.170um 20.420um -4.135um
+
+ 20.210um -4.250um 20.420um -4.170um
+
+ 20.210um -4.255um 20.420um -4.250um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/ConstBiasVoltageGen.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'ConstBiasVoltageGen'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmppr2417qq/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "ConstBiasVoltageGen".
+Reading "Unnamed_02de2c77".
+Reading "Unnamed_48d2c2cc".
+Reading "c_route_d2c41065".
+Reading "c_route_a9dbc390".
+Reading "c_route_903f5afe".
+Reading "Unnamed_48d2c2cc".
+Reading "c_route_903f5afe".
+Reading "c_route_d2c41065".
+Reading "c_route_a9dbc390".
+Reading "Unnamed_02de2c77".
+[INFO]: Loading ConstBiasVoltageGen
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmppr2417qq/ConstBiasVoltageGen.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_02de2c77" (byte position 72706): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_48d2c2cc" (byte position 386): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "ConstBiasVoltageGen" (byte position 370): Cell "Unnamed_48d2c2cc" was already defined in this file.
+Error while reading cell "ConstBiasVoltageGen" (byte position 370): Ignoring duplicate definition
+Error while reading cell "ConstBiasVoltageGen" (byte position 70422): Cell "c_route_903f5afe" was already defined in this file.
+Error while reading cell "ConstBiasVoltageGen" (byte position 70422): Ignoring duplicate definition
+Error while reading cell "ConstBiasVoltageGen" (byte position 71178): Cell "c_route_d2c41065" was already defined in this file.
+Error while reading cell "ConstBiasVoltageGen" (byte position 71178): Ignoring duplicate definition
+Error while reading cell "ConstBiasVoltageGen" (byte position 71934): Cell "c_route_a9dbc390" was already defined in this file.
+Error while reading cell "ConstBiasVoltageGen" (byte position 71934): Ignoring duplicate definition
+Error while reading cell "ConstBiasVoltageGen" (byte position 72690): Cell "Unnamed_02de2c77" was already defined in this file.
+Error while reading cell "ConstBiasVoltageGen" (byte position 72690): Ignoring duplicate definition
+
+ConstBiasVoltageGen count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -13.050um -3.660um -12.930um
+
+ -3.920um -12.930um -3.560um -12.790um
+
+ -3.920um -13.050um -3.660um -12.930um
+
+ -3.920um -12.930um -3.560um -12.790um
+
+ -3.920um -12.930um -3.560um -12.790um
+
+ -3.820um -12.790um -3.560um -12.670um
+
+ -3.920um -12.930um -3.560um -12.790um
+
+ -3.820um -12.790um -3.560um -12.670um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ -3.905um -12.670um -3.475um -12.585um
+
+ -3.905um -12.705um -3.820um -12.670um
+
+ -3.820um -12.705um -3.560um -12.670um
+
+ -3.560um -12.685um -3.475um -12.670um
+
+ -3.560um -12.705um -2.975um -12.685um
+
+ -4.045um -12.505um -3.335um -12.445um
+
+ -4.045um -12.565um -3.335um -12.505um
+
+ -4.045um -12.505um -3.905um -12.445um
+
+ -4.045um -12.565um -3.905um -12.505um
+
+ -3.475um -12.505um -3.335um -12.445um
+
+ -3.475um -12.565um -3.335um -12.505um
+
+ -3.475um -12.565um -2.835um -12.545um
+
+ -2.975um -12.565um -2.835um -12.545um
+
+ -2.975um -13.155um -2.835um -13.140um
+
+ -2.975um -13.155um -2.835um -13.140um
+
+ -3.115um -13.015um -2.975um -13.000um
+
+ -3.115um -13.015um -2.975um -13.000um
+
+ 2.835um -12.725um 2.975um -12.705um
+
+ 2.835um -12.725um 2.975um -12.705um
+
+ 2.975um -12.585um 3.115um -12.565um
+
+ 2.975um -12.585um 3.115um -12.565um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.920um -12.790um -3.820um -12.705um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CommonSourceAmplifierFoldedDiodeLoad.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'CommonSourceAmplifierFoldedDiodeLoad'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpqvnpzyn1/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CommonSourceAmplifierFoldedDiodeLoad".
+Reading "Unnamed_9396c456".
+Reading "Unnamed_fa81f813".
+Reading "c_route_79ab2c5f".
+Reading "c_route_8db0a146".
+Reading "c_route_75ac643b".
+Reading "c_route_79ab2c5f".
+Reading "Unnamed_fa81f813".
+Reading "c_route_75ac643b".
+Reading "Unnamed_9396c456".
+Reading "c_route_8db0a146".
+[INFO]: Loading CommonSourceAmplifierFoldedDiodeLoad
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpqvnpzyn1/CommonSourceAmplifierFoldedDiodeLoad.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_9396c456" (byte position 71966): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_fa81f813" (byte position 1158): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 386): Cell "c_route_79ab2c5f" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 386): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 1142): Cell "Unnamed_fa81f813" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 1142): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 71194): Cell "c_route_75ac643b" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 71194): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 71950): Cell "Unnamed_9396c456" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 71950): Ignoring duplicate definition
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 142002): Cell "c_route_8db0a146" was already defined in this file.
+Error while reading cell "CommonSourceAmplifierFoldedDiodeLoad" (byte position 142002): Ignoring duplicate definition
+
+CommonSourceAmplifierFoldedDiodeLoad count: 
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ 2.835um -12.725um 2.975um -12.705um
+
+ 2.835um -12.725um 2.975um -12.705um
+
+ 2.975um -12.585um 3.115um -12.565um
+
+ 2.975um -12.585um 3.115um -12.565um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -13.050um -3.660um -12.910um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.920um -13.050um -3.660um -12.910um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.820um -12.790um -3.560um -12.650um
+
+ -3.920um -12.910um -3.560um -12.790um
+
+ -3.820um -12.790um -3.560um -12.650um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.560um -12.500um 3.820um -12.220um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+ 3.350um -16.635um 3.820um -16.375um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.920um -12.790um -3.820um -12.705um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/NAND.convo
+Error running session with /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/NAND.convo: Ports must be parralel and have same orientation
+Traceback (most recent call last):
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/validate_synthetic_data.py", line 29, in instantiate_convo
+    comp = glayout.syntaxer.dynamic_load.run_glayout_code_cell(pdk, session_code)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 174, in run_glayout_code_cell
+    return testcell(**get_default_arguments(testcell, pdk))
+  File "/tmp/tmpbjf3da2c/NAND.py", line 86, in NAND_cell
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/flow/routing/smart_route.py", line 47, in smart_route
+    return c_route(pdk, edge1, edge2, **kwargs)
+  File "/usr/bin/miniconda3/lib/python3.10/site-packages/gdsfactory/cell.py", line 206, in _cell
+    component = func(*args, **kwargs)
+  File "/usr/bin/miniconda3/lib/python3.10/site-packages/pydantic/validate_call_decorator.py", line 59, in wrapper_function
+    return validate_call_wrapper(*args, **kwargs)
+  File "/usr/bin/miniconda3/lib/python3.10/site-packages/pydantic/_internal/_validate_call.py", line 81, in __call__
+    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/flow/routing/c_route.py", line 71, in c_route
+    raise ValueError("Ports must be parralel and have same orientation")
+ValueError: Ports must be parralel and have same orientation
+
+Error running DRC on /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/NAND.convo
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/RegulatedCascode.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'RegulatedCascode'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpsk0vbz_4/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "RegulatedCascode".
+Reading "Unnamed_f85ace7b".
+Reading "Unnamed_4286f015".
+Reading "c_route_9f101bc5".
+Reading "c_route_8c49784a".
+Reading "Unnamed_4286f015".
+Reading "Unnamed_f85ace7b".
+Reading "c_route_9f101bc5".
+Reading "c_route_8c49784a".
+[INFO]: Loading RegulatedCascode
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpsk0vbz_4/RegulatedCascode.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_f85ace7b" (byte position 28106): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_4286f015" (byte position 342): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "RegulatedCascode" (byte position 326): Cell "Unnamed_4286f015" was already defined in this file.
+Error while reading cell "RegulatedCascode" (byte position 326): Ignoring duplicate definition
+Error while reading cell "RegulatedCascode" (byte position 28090): Cell "Unnamed_f85ace7b" was already defined in this file.
+Error while reading cell "RegulatedCascode" (byte position 28090): Ignoring duplicate definition
+Error while reading cell "RegulatedCascode" (byte position 55854): Cell "c_route_9f101bc5" was already defined in this file.
+Error while reading cell "RegulatedCascode" (byte position 55854): Ignoring duplicate definition
+Error while reading cell "RegulatedCascode" (byte position 56610): Cell "c_route_8c49784a" was already defined in this file.
+Error while reading cell "RegulatedCascode" (byte position 56610): Ignoring duplicate definition
+
+RegulatedCascode count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.165um -10.890um -2.905um -10.770um
+
+ -3.165um -10.770um -2.805um -10.630um
+
+ -3.165um -10.890um -2.905um -10.770um
+
+ -3.165um -10.770um -2.805um -10.630um
+
+ -3.165um -10.770um -2.805um -10.630um
+
+ -3.065um -10.630um -2.805um -10.510um
+
+ -3.165um -10.770um -2.805um -10.630um
+
+ -3.065um -10.630um -2.805um -10.510um
+
+ 4.105um -4.515um 4.575um -4.255um
+
+ 4.105um -4.515um 4.575um -4.255um
+
+ 4.105um -4.515um 4.575um -4.255um
+
+ 4.105um -4.515um 4.575um -4.255um
+
+ 4.105um -4.515um 4.575um -4.255um
+
+ 4.105um -4.515um 4.575um -4.255um
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ -3.150um -10.510um -2.720um -10.425um
+
+ -3.150um -10.545um -3.065um -10.510um
+
+ -3.065um -10.545um -2.805um -10.510um
+
+ -2.805um -10.525um -2.720um -10.510um
+
+ -2.805um -10.545um -2.220um -10.525um
+
+ -3.290um -10.345um -2.580um -10.285um
+
+ -3.290um -10.405um -2.580um -10.345um
+
+ -3.290um -10.345um -3.150um -10.285um
+
+ -3.290um -10.405um -3.150um -10.345um
+
+ -2.720um -10.345um -2.580um -10.285um
+
+ -2.720um -10.405um -2.580um -10.345um
+
+ -2.720um -10.405um -2.080um -10.385um
+
+ -2.220um -10.405um -2.080um -10.385um
+
+ -2.220um -10.995um -2.080um -10.980um
+
+ -2.220um -10.995um -2.080um -10.980um
+
+ -2.360um -10.855um -2.220um -10.840um
+
+ -2.360um -10.855um -2.220um -10.840um
+
+ 3.590um -10.565um 3.730um -10.545um
+
+ 3.590um -10.565um 3.730um -10.545um
+
+ 3.730um -10.425um 3.870um -10.405um
+
+ 3.730um -10.425um 3.870um -10.405um
+
+----------------------------------------
+
+Deep N-well spacing < 6.3um (dnwell.3)
+
+----------------------------------------
+
+ -4.630um -4.780um 0.000um 0.000um
+
+ -4.630um 0.000um 0.000um 1.125um
+
+ 0.000um -4.780um 4.630um 0.000um
+
+ 0.000um 0.000um 4.630um 1.125um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.165um -10.630um -3.065um -10.545um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/DegenCommonSource.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'DegenCommonSource'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmptwd83aiu/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "DegenCommonSource".
+Reading "Unnamed_13e16244".
+Reading "Unnamed_e5e9a298".
+Reading "c_route_f1c1d800".
+Reading "c_route_7d491724".
+Reading "c_route_f1c1d800".
+Reading "Unnamed_13e16244".
+Reading "Unnamed_e5e9a298".
+Reading "c_route_7d491724".
+[INFO]: Loading DegenCommonSource
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmptwd83aiu/DegenCommonSource.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_13e16244" (byte position 1100): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_e5e9a298" (byte position 71152): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "DegenCommonSource" (byte position 328): Cell "c_route_f1c1d800" was already defined in this file.
+Error while reading cell "DegenCommonSource" (byte position 328): Ignoring duplicate definition
+Error while reading cell "DegenCommonSource" (byte position 1084): Cell "Unnamed_13e16244" was already defined in this file.
+Error while reading cell "DegenCommonSource" (byte position 1084): Ignoring duplicate definition
+Error while reading cell "DegenCommonSource" (byte position 71136): Cell "Unnamed_e5e9a298" was already defined in this file.
+Error while reading cell "DegenCommonSource" (byte position 71136): Ignoring duplicate definition
+Error while reading cell "DegenCommonSource" (byte position 141188): Cell "c_route_7d491724" was already defined in this file.
+Error while reading cell "DegenCommonSource" (byte position 141188): Ignoring duplicate definition
+
+DegenCommonSource count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ -3.920um -0.930um -3.560um -0.670um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.350um -16.635um 3.610um -16.535um
+
+ 3.250um -16.535um 3.610um -16.375um
+
+ 3.350um -16.635um 3.610um -16.535um
+
+ 3.250um -16.535um 3.610um -16.375um
+
+ 3.250um -16.375um 3.510um -16.275um
+
+ 3.250um -16.535um 3.610um -16.375um
+
+ 3.250um -16.375um 3.510um -16.275um
+
+ 3.250um -16.535um 3.610um -16.375um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+ 3.250um -4.515um 3.610um -4.255um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ 3.510um -16.375um 3.610um -16.290um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CascodeCommonGateInterdigitated.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 1 in 'CascodeCommonGateInterdigitated'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpa87kc4ha/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CascodeCommonGateInterdigitated".
+Reading "transformed_155ce16c".
+Reading "Unnamed_6e281e41$1".
+Reading "straight_route_79c4bb2e".
+Reading "straight_route_2d4ffa88".
+Reading "via_stack_86f05170_transformed_5e66aad4".
+Reading "transformed_155ce16c".
+Reading "straight_route_2d4ffa88".
+Reading "straight_route_79c4bb2e".
+Reading "Unnamed_6e281e41$1".
+Reading "via_stack_86f05170_transformed_5e66aad4".
+[INFO]: Loading CascodeCommonGateInterdigitated
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmpa87kc4ha/CascodeCommonGateInterdigitated.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "transformed_155ce16c" (byte position 34934): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 294): Cell "transformed_155ce16c" was already defined in this file.
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 294): Ignoring duplicate definition
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 35180): Cell "straight_route_2d4ffa88" was already defined in this file.
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 35180): Ignoring duplicate definition
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 35304): Cell "straight_route_79c4bb2e" was already defined in this file.
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 35304): Ignoring duplicate definition
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 35422): Cell "Unnamed_6e281e41$1" was already defined in this file.
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 35422): Ignoring duplicate definition
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 76058): Cell "via_stack_86f05170_transformed_5e66aad4" was already defined in this file.
+Error while reading cell "CascodeCommonGateInterdigitated" (byte position 76058): Ignoring duplicate definition
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CrossCoupledInverters.convo
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/StrongArmLatch.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 11 in 'StrongArmLatch'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpzxxx8snc/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "StrongArmLatch".
+Reading "diff_pair_generic_267b343b".
+Reading "Unnamed_4b203160".
+Reading "Unnamed_98ecfe4a".
+Reading "Unnamed_4bb8c818$1".
+Reading "straight_route_68f2b7ec".
+Reading "straight_route_4704252b".
+Reading "straight_route_b63fb0fe".
+Reading "straight_route_f762e9c5".
+Reading "via_stack_55f9ffd6".
+Reading "L_route_89e9c79a".
+Reading "L_route_53ee776e".
+Reading "L_route_3404a870".
+Reading "via_stack_c2a41982$4".
+Reading "straight_route_c9257eb9".
+Reading "straight_route_1723581e".
+Reading "L_route_0e1c55a8".
+Reading "straight_route_18893ae6".
+Reading "straight_route_80d1649b".
+Reading "L_route_06258f9b".
+Reading "straight_route_abcf8cff".
+Reading "c_route_61901553".
+Reading "straight_route_0d5784e6".
+Reading "c_route_796496dd".
+Reading "straight_route_ac5eabd0".
+Reading "straight_route_e6c17bdf".
+Reading "straight_route_da5eacd6".
+Reading "straight_route_06851b8d".
+Reading "straight_route_d0ea57ce".
+Reading "straight_route_86721f66".
+Reading "straight_route_a213756f".
+Reading "straight_route_cbdb6bd6".
+Reading "straight_route_9a680966".
+Reading "straight_route_1ee5fb09".
+Reading "straight_route_f6a28410".
+Reading "straight_route_1d43ce37".
+Reading "straight_route_086c48c0".
+Reading "CrossCoupledInverters$1".
+Reading "Unnamed_6e3fa06d".
+Reading "transformed_d1b69a33".
+Reading "Unnamed_eab55b9d$1".
+Reading "straight_route_bf10d3a2".
+Reading "straight_route_6102cbbb".
+Reading "transformed_0d02fbe4".
+Reading "Unnamed_dcb7e5f7$1".
+Reading "straight_route_bf10d3a2$1".
+Reading "straight_route_6102cbbb$1".
+Reading "Unnamed_cbc2d466".
+Reading "straight_route_651ad49b".
+Reading "straight_route_7273c63e".
+Reading "straight_route_c35ddc62".
+Reading "straight_route_4b596910".
+Reading "straight_route_d0d93b29".
+Reading "straight_route_192c623c".
+Reading "c_route_0589ee45".
+Reading "straight_route_62b55339".
+Reading "straight_route_e49048de".
+Reading "straight_route_6849f4b5".
+Reading "straight_route_adfaa837".
+Reading "straight_route_ee9eb42a".
+Reading "straight_route_905f6d96".
+Reading "c_route_9433f344".
+Reading "straight_route_13725a7f".
+Reading "straight_route_f1c8027e".
+Reading "straight_route_8182bbc1".
+Reading "straight_route_8fedaae1".
+Reading "straight_route_e98c3f77".
+Reading "straight_route_900e2898".
+Reading "c_route_45738861".
+Reading "straight_route_3f673b01".
+Reading "straight_route_3657d917".
+Reading "straight_route_a9639bc0".
+Reading "straight_route_22def115".
+Reading "straight_route_e6d3b08d".
+Reading "straight_route_4976ed3e".
+Reading "c_route_36052575".
+Reading "c_route_06158527".
+Reading "c_route_06293172".
+Reading "Unnamed_3a9858b3".
+Reading "Unnamed_f7e4a07a".
+Reading "Unnamed_0954337f".
+Reading "Unnamed_47f89b39".
+Reading "c_route_547af1ec".
+Reading "c_route_980d4b06".
+Reading "c_route_3edc39ed".
+Reading "c_route_66701283".
+Reading "c_route_f6884546".
+Reading "c_route_da0ca64f".
+Reading "c_route_c8d0439e".
+Reading "c_route_8420783b".
+Reading "c_route_e62f8730".
+Reading "straight_route_a213756f".
+Reading "Unnamed_0954337f".
+Reading "straight_route_68f2b7ec".
+Reading "straight_route_1d43ce37".
+Reading "c_route_da0ca64f".
+Reading "straight_route_6849f4b5".
+Reading "straight_route_da5eacd6".
+Reading "straight_route_e49048de".
+Reading "Unnamed_cbc2d466".
+Reading "c_route_06293172".
+Reading "straight_route_f6a28410".
+Reading "c_route_0589ee45".
+Reading "CrossCoupledInverters$1".
+Reading "L_route_53ee776e".
+Reading "Unnamed_47f89b39".
+Reading "straight_route_c9257eb9".
+Reading "straight_route_62b55339".
+Reading "transformed_d1b69a33".
+Reading "straight_route_086c48c0".
+Reading "L_route_3404a870".
+Reading "straight_route_b63fb0fe".
+Reading "via_stack_c2a41982$4".
+Reading "straight_route_192c623c".
+Reading "straight_route_651ad49b".
+Reading "straight_route_cbdb6bd6".
+Reading "straight_route_4976ed3e".
+Reading "c_route_06158527".
+Reading "c_route_c8d0439e".
+Reading "straight_route_bf10d3a2$1".
+Reading "Unnamed_6e3fa06d".
+Reading "c_route_36052575".
+Reading "straight_route_6102cbbb".
+Reading "Unnamed_4bb8c818$1".
+Reading "straight_route_a9639bc0".
+Reading "straight_route_e6c17bdf".
+Reading "straight_route_86721f66".
+Reading "via_stack_55f9ffd6".
+Reading "straight_route_0d5784e6".
+Reading "straight_route_13725a7f".
+Reading "transformed_0d02fbe4".
+Reading "straight_route_adfaa837".
+Reading "straight_route_80d1649b".
+Reading "straight_route_d0ea57ce".
+Reading "straight_route_f1c8027e".
+Reading "straight_route_3657d917".
+Reading "c_route_45738861".
+Reading "straight_route_900e2898".
+Reading "straight_route_d0d93b29".
+Reading "c_route_8420783b".
+Reading "c_route_66701283".
+Reading "c_route_9433f344".
+Reading "straight_route_6102cbbb$1".
+Reading "c_route_796496dd".
+Reading "straight_route_7273c63e".
+Reading "c_route_e62f8730".
+Reading "L_route_89e9c79a".
+Reading "straight_route_8182bbc1".
+Reading "straight_route_bf10d3a2".
+Reading "straight_route_ee9eb42a".
+Reading "straight_route_1723581e".
+Reading "straight_route_4b596910".
+Reading "Unnamed_eab55b9d$1".
+Reading "straight_route_abcf8cff".
+Reading "straight_route_905f6d96".
+Reading "straight_route_8fedaae1".
+Reading "straight_route_3f673b01".
+Reading "straight_route_e6d3b08d".
+Reading "c_route_547af1ec".
+Reading "Unnamed_4b203160".
+Reading "straight_route_f762e9c5".
+Reading "c_route_61901553".
+Reading "straight_route_1ee5fb09".
+Reading "Unnamed_dcb7e5f7$1".
+Reading "straight_route_ac5eabd0".
+Reading "straight_route_4704252b".
+Reading "L_route_0e1c55a8".
+Reading "c_route_980d4b06".
+Reading "straight_route_06851b8d".
+Reading "straight_route_e98c3f77".
+Reading "c_route_f6884546".
+Reading "Unnamed_98ecfe4a".
+Reading "straight_route_9a680966".
+Reading "diff_pair_generic_267b343b".
+Reading "straight_route_18893ae6".
+Reading "c_route_3edc39ed".
+Reading "straight_route_22def115".
+Reading "Unnamed_3a9858b3".
+Reading "Unnamed_f7e4a07a".
+Reading "L_route_06258f9b".
+Reading "straight_route_c35ddc62".
+[INFO]: Loading StrongArmLatch
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpzxxx8snc/StrongArmLatch.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "diff_pair_generic_267b343b" (byte position 449216): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "diff_pair_generic_267b343b" (byte position 366068): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_4b203160" (byte position 366132): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "diff_pair_generic_267b343b" (byte position 429510): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_98ecfe4a" (byte position 429574): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "diff_pair_generic_267b343b" (byte position 244586): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 69886): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 427446): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 241020): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 385576): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 277508): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 322894): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 131770): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 240840): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 241144): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 200978): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 323446): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 427570): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 317620): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 364692): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 385700): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 277754): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 321514): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 427322): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 277260): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 71014): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 428506): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 317744): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 277384): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 734): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 241640): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 449018): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 386200): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 129398): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 70010): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "diff_pair_generic_267b343b" (byte position 240716): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_6e3fa06d" (byte position 201226): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "transformed_0d02fbe4" (byte position 317302): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "transformed_0d02fbe4" (byte position 243400): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_6e3fa06d" (byte position 71262): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "CrossCoupledInverters$1" (byte position 129522): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "CrossCoupledInverters$1" (byte position 71138): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "CrossCoupledInverters$1" (byte position 70890): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "CrossCoupledInverters$1" (byte position 128642): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "Unnamed_3a9858b3" (byte position 452446): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_f7e4a07a" (byte position 522498): Unknown layer/datatype in boundary, layer=64 type=44
+
+StrongArmLatch count: 
+
+----------------------------------------
+
+N-Diffusion spacing to N-well < 0.34um (diff/tap.9)
+
+----------------------------------------
+
+ -12.655um 40.045um 0.000um 40.225um
+
+ -12.655um 39.915um -12.475um 40.045um
+
+ -11.805um 37.090um -11.595um 37.135um
+
+ -11.805um 37.135um -11.595um 37.305um
+
+ -11.805um 37.305um -11.595um 37.475um
+
+ -11.805um 37.475um -11.595um 37.645um
+
+ -11.805um 37.645um -11.595um 37.815um
+
+ -11.805um 37.815um -11.595um 37.985um
+
+ -11.805um 37.985um -11.595um 38.155um
+
+ -11.805um 38.155um -11.595um 38.325um
+
+ -11.805um 38.325um -11.595um 38.495um
+
+ -11.805um 38.495um -11.595um 38.665um
+
+ -11.805um 38.665um -11.595um 38.835um
+
+ -11.805um 38.835um -11.595um 39.005um
+
+ -11.805um 39.005um -11.595um 39.175um
+
+ -11.805um 39.175um -11.595um 39.375um
+
+ -11.805um 36.840um -11.595um 36.965um
+
+ -11.805um 36.965um -11.595um 37.090um
+
+ -11.805um 33.840um -11.595um 33.905um
+
+ -11.805um 33.905um -11.595um 34.075um
+
+ -11.805um 34.075um -11.595um 34.245um
+
+ -11.805um 34.245um -11.595um 34.415um
+
+ -11.805um 34.415um -11.595um 34.585um
+
+ -11.805um 34.585um -11.595um 34.755um
+
+ -11.805um 34.755um -11.595um 34.925um
+
+ -11.805um 34.925um -11.595um 35.095um
+
+ -11.805um 35.095um -11.595um 35.265um
+
+ -11.805um 35.265um -11.595um 35.435um
+
+ -11.805um 35.435um -11.595um 35.605um
+
+ -11.805um 35.605um -11.595um 35.775um
+
+ -11.805um 35.775um -11.595um 35.945um
+
+ -11.805um 35.945um -11.595um 36.115um
+
+ -11.805um 36.115um -11.595um 36.285um
+
+ -11.805um 36.285um -11.595um 36.455um
+
+ -11.805um 36.455um -11.595um 36.625um
+
+ -11.805um 36.625um -11.595um 36.795um
+
+ -11.805um 36.795um -11.595um 36.840um
+
+ -11.805um 33.590um -11.595um 33.735um
+
+ -11.805um 33.735um -11.595um 33.840um
+
+ -11.805um 33.260um -11.595um 33.395um
+
+ -11.805um 33.395um -11.595um 33.565um
+
+ -11.805um 33.565um -11.595um 33.590um
+
+ -11.805um 31.905um -11.595um 32.035um
+
+ -11.805um 32.035um -11.595um 32.205um
+
+ -11.805um 32.205um -11.595um 32.375um
+
+ -11.805um 32.375um -11.595um 32.545um
+
+ -11.805um 32.545um -11.595um 32.715um
+
+ -11.805um 32.715um -11.595um 32.885um
+
+ -11.805um 32.885um -11.595um 33.055um
+
+ -11.805um 33.055um -11.595um 33.225um
+
+ -11.805um 33.225um -11.595um 33.260um
+
+ -11.805um 31.740um -11.595um 31.865um
+
+ -11.805um 31.865um -11.595um 31.905um
+
+ -11.805um 31.325um -11.595um 31.525um
+
+ -11.805um 31.525um -11.595um 31.695um
+
+ -11.805um 31.695um -11.595um 31.740um
+
+ -11.805um 31.325um 0.000um 31.535um
+
+ 0.000um 40.045um 12.345um 40.225um
+
+ 0.000um 31.325um 11.805um 31.535um
+
+ 12.475um 30.785um 12.655um 30.905um
+
+ 12.475um 30.905um 12.655um 31.075um
+
+ 12.475um 31.075um 12.655um 31.195um
+
+ 12.475um 31.195um 12.655um 31.525um
+
+ 12.475um 31.525um 12.655um 31.695um
+
+ 12.475um 31.695um 12.655um 31.865um
+
+ 12.475um 31.865um 12.655um 32.035um
+
+ 12.475um 32.035um 12.655um 32.205um
+
+ 12.475um 32.205um 12.655um 32.375um
+
+ 12.475um 32.375um 12.655um 32.545um
+
+ 12.475um 32.545um 12.655um 32.715um
+
+ 12.475um 32.715um 12.655um 32.885um
+
+ 12.475um 32.885um 12.655um 33.055um
+
+ 12.475um 33.055um 12.655um 33.225um
+
+ 12.475um 33.225um 12.655um 33.395um
+
+ 12.475um 33.395um 12.655um 33.565um
+
+ 12.475um 33.565um 12.655um 33.735um
+
+ 12.475um 33.735um 12.655um 33.905um
+
+ 12.475um 33.905um 12.655um 34.075um
+
+ 12.475um 34.075um 12.655um 34.245um
+
+ 12.475um 34.245um 12.655um 34.415um
+
+ 12.475um 34.415um 12.655um 34.585um
+
+ 12.475um 34.585um 12.655um 34.755um
+
+ 12.475um 34.755um 12.655um 34.925um
+
+ 12.475um 34.925um 12.655um 35.095um
+
+ 12.475um 35.095um 12.655um 35.265um
+
+ 12.475um 35.265um 12.655um 35.435um
+
+ 12.475um 35.435um 12.655um 35.605um
+
+ 12.475um 35.605um 12.655um 35.775um
+
+ 12.475um 35.775um 12.655um 35.945um
+
+ 12.475um 35.945um 12.655um 36.115um
+
+ 12.475um 36.115um 12.655um 36.285um
+
+ 12.475um 36.285um 12.655um 36.455um
+
+ 12.475um 36.455um 12.655um 36.625um
+
+ 12.475um 36.625um 12.655um 36.795um
+
+ 12.475um 36.795um 12.655um 36.965um
+
+ 12.475um 36.965um 12.655um 37.135um
+
+ 12.475um 37.135um 12.655um 37.305um
+
+ 12.475um 37.305um 12.655um 37.475um
+
+ 12.475um 37.475um 12.655um 37.645um
+
+ 12.475um 37.645um 12.655um 37.815um
+
+ 12.475um 37.815um 12.655um 37.985um
+
+ 12.475um 37.985um 12.655um 38.155um
+
+ 12.475um 38.155um 12.655um 38.325um
+
+ 12.475um 38.325um 12.655um 38.495um
+
+ 12.475um 38.495um 12.655um 38.665um
+
+ 12.475um 38.665um 12.655um 38.835um
+
+ 12.475um 38.835um 12.655um 39.005um
+
+ 12.475um 39.005um 12.655um 39.175um
+
+ 12.475um 39.175um 12.655um 39.505um
+
+ 12.475um 39.505um 12.655um 39.625um
+
+ 12.475um 39.625um 12.655um 39.795um
+
+ 12.345um 40.045um 12.655um 40.225um
+
+ 12.475um 39.795um 12.655um 40.045um
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ 25.480um 20.865um 25.740um 20.965um
+
+ 25.480um 20.705um 25.840um 20.865um
+
+ 25.480um 20.865um 25.740um 20.965um
+
+ 25.480um 20.705um 25.840um 20.865um
+
+ 25.580um 20.605um 25.840um 20.705um
+
+ 25.480um 20.705um 25.840um 20.865um
+
+ 25.580um 20.605um 25.840um 20.705um
+
+ 25.480um 20.705um 25.840um 20.865um
+
+----------------------------------------
+
+Metal2 spacing < 0.14um (met2.2)
+
+----------------------------------------
+
+ 5.320um -0.800um 5.650um -0.765um
+
+ 5.320um -0.805um 5.355um -0.800um
+
+ 5.355um -0.805um 5.615um -0.800um
+
+ 5.615um -0.805um 5.650um -0.800um
+
+ 5.320um -0.630um 5.355um -0.625um
+
+ 5.355um -0.630um 5.615um -0.625um
+
+ 5.615um -0.630um 5.650um -0.625um
+
+ 5.320um -0.665um 5.650um -0.630um
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ -5.205um 12.685um -5.125um 12.825um
+
+ -5.205um 12.545um -5.125um 12.600um
+
+ -5.205um 12.630um -5.125um 12.825um
+
+ -5.205um 12.600um -5.125um 12.630um
+
+ -5.345um 12.630um -5.265um 12.685um
+
+ -5.345um 12.600um -5.265um 12.630um
+
+ -5.345um 12.545um -5.265um 12.600um
+
+----------------------------------------
+
+Can't overlap those layers
+
+----------------------------------------
+
+ -12.475um 39.375um 6.300um 40.045um
+
+ -12.475um 31.325um -11.805um 39.375um
+
+ -12.475um 30.655um 6.300um 31.325um
+
+ -6.300um 39.375um 12.475um 40.045um
+
+ 11.805um 31.325um 12.475um 39.375um
+
+ -6.300um 30.655um 12.475um 31.325um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ 25.740um 20.865um 25.840um 20.950um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/Inverter.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'Inverter'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpkfn0ty4h/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "Inverter".
+Reading "Unnamed_b12e5c74".
+Reading "Unnamed_c912ca27".
+Reading "c_route_4ce47961".
+Reading "c_route_76e5fcf3".
+Reading "c_route_4ce47961".
+Reading "Unnamed_c912ca27".
+Reading "c_route_76e5fcf3".
+Reading "Unnamed_b12e5c74".
+[INFO]: Loading Inverter
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpkfn0ty4h/Inverter.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_c912ca27" (byte position 1090): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Inverter" (byte position 318): Cell "c_route_4ce47961" was already defined in this file.
+Error while reading cell "Inverter" (byte position 318): Ignoring duplicate definition
+Error while reading cell "Inverter" (byte position 1074): Cell "Unnamed_c912ca27" was already defined in this file.
+Error while reading cell "Inverter" (byte position 1074): Ignoring duplicate definition
+Error while reading cell "Inverter" (byte position 28774): Cell "c_route_76e5fcf3" was already defined in this file.
+Error while reading cell "Inverter" (byte position 28774): Ignoring duplicate definition
+Error while reading cell "Inverter" (byte position 29530): Cell "Unnamed_b12e5c74" was already defined in this file.
+Error while reading cell "Inverter" (byte position 29530): Ignoring duplicate definition
+
+Inverter count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+ -3.165um 9.030um -2.805um 9.290um
+
+----------------------------------------
+
+Metal2 spacing < 0.14um (met2.2)
+
+----------------------------------------
+
+ -2.790um -1.105um -2.730um -0.965um
+
+ -2.790um -1.105um -2.730um -0.930um
+
+ -2.790um -0.930um -2.730um -0.670um
+
+ -2.790um -0.670um -2.730um -0.395um
+
+ -2.930um -0.670um -2.870um -0.395um
+
+ -2.930um -0.930um -2.905um -0.670um
+
+ -2.905um -0.930um -2.870um -0.670um
+
+ -2.930um -0.965um -2.870um -0.930um
+
+----------------------------------------
+
+
+
+Error running session with /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/ClassABStage.convo: You may have provided a parameter that does not exist for this function OR there may be some other error
+Traceback (most recent call last):
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 227, in parse_user_params
+    mytree = list(self.__grammar_parser.parse(tokens))[0]
+IndexError: list index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/validate_synthetic_data.py", line 28, in instantiate_convo
+    session_code = glayout.syntaxer.dynamic_load.run_session(load_conversation=convo_file, restore_and_exit=True)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 52, in run_session
+    convo, loop_count = reload_saved_convo(load_conversation)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 37, in reload_saved_convo
+    convo.process_next_input(line)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/process_input.py", line 359, in process_next_input
+    saveresponse = self.process_import_sentence(sentence)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/process_input.py", line 163, in process_import_sentence
+    self.code.update_import_table(aliases, compname, modpath)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 749, in update_import_table
+    self.import_table.append(ImportCell(component_identifiers, component_name, module_path))
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 325, in __init__
+    glayoutcode = glayout.syntaxer.dynamic_load.run_session(module_path,True)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 52, in run_session
+    convo, loop_count = reload_saved_convo(load_conversation)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 37, in reload_saved_convo
+    convo.process_next_input(line)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/process_input.py", line 363, in process_next_input
+    saveresponse = self.process_place_sentence(sentence)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/process_input.py", line 257, in process_place_sentence
+    self.code.update_place_table(genid, params, comp_name)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 778, in update_place_table
+    self.bulk_action_table.append(PlaceCell(self.toplvl_name, self.search_import_table(generator_id), component_name, user_input_parameters, self.get_params_and_vars()))
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 522, in __init__
+    self.params = ParametersList(generator_handle).parse_user_params(known_paramsORvars, user_input_parameters)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 229, in parse_user_params
+    raise ValueError("You may have provided a parameter that does not exist for this function OR there may be some other error") from serr
+ValueError: You may have provided a parameter that does not exist for this function OR there may be some other error
+
+Error running DRC on /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/ClassABStage.convo
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/BiasVoltageGenerator.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'BiasVoltageGenerator'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpp5emevkv/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "BiasVoltageGenerator".
+Reading "Unnamed_00a71216".
+Reading "Unnamed_77835042".
+Reading "c_route_b11abe45".
+Reading "c_route_dbf5ce1c".
+Reading "c_route_ab2b7e56".
+Reading "Unnamed_00a71216".
+Reading "Unnamed_77835042".
+Reading "c_route_dbf5ce1c".
+Reading "c_route_ab2b7e56".
+Reading "c_route_b11abe45".
+[INFO]: Loading BiasVoltageGenerator
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpp5emevkv/BiasVoltageGenerator.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_77835042" (byte position 69414): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "BiasVoltageGenerator" (byte position 370): Cell "Unnamed_00a71216" was already defined in this file.
+Error while reading cell "BiasVoltageGenerator" (byte position 370): Ignoring duplicate definition
+Error while reading cell "BiasVoltageGenerator" (byte position 69398): Cell "Unnamed_77835042" was already defined in this file.
+Error while reading cell "BiasVoltageGenerator" (byte position 69398): Ignoring duplicate definition
+Error while reading cell "BiasVoltageGenerator" (byte position 139450): Cell "c_route_dbf5ce1c" was already defined in this file.
+Error while reading cell "BiasVoltageGenerator" (byte position 139450): Ignoring duplicate definition
+Error while reading cell "BiasVoltageGenerator" (byte position 140206): Cell "c_route_ab2b7e56" was already defined in this file.
+Error while reading cell "BiasVoltageGenerator" (byte position 140206): Ignoring duplicate definition
+Error while reading cell "BiasVoltageGenerator" (byte position 140962): Cell "c_route_b11abe45" was already defined in this file.
+Error while reading cell "BiasVoltageGenerator" (byte position 140962): Ignoring duplicate definition
+
+BiasVoltageGenerator count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.920um -12.920um -3.660um -12.800um
+
+ -3.920um -12.800um -3.560um -12.660um
+
+ -3.920um -12.920um -3.660um -12.800um
+
+ -3.920um -12.800um -3.560um -12.660um
+
+ -3.920um -12.800um -3.560um -12.660um
+
+ -3.820um -12.660um -3.560um -12.540um
+
+ -3.920um -12.800um -3.560um -12.660um
+
+ -3.820um -12.660um -3.560um -12.540um
+
+ 3.560um -12.370um 3.820um -12.090um
+
+ 3.560um -12.370um 3.820um -12.090um
+
+ 3.350um -16.505um 3.820um -16.245um
+
+ 3.350um -16.505um 3.820um -16.245um
+
+ 3.350um -16.505um 3.820um -16.245um
+
+ 3.350um -16.505um 3.820um -16.245um
+
+ 3.560um -12.370um 3.820um -12.090um
+
+ 3.560um -12.370um 3.820um -12.090um
+
+ 3.350um -16.505um 3.820um -16.245um
+
+ 3.350um -16.505um 3.820um -16.245um
+
+----------------------------------------
+
+Metal1 spacing < 0.14um (met1.2)
+
+----------------------------------------
+
+ -3.905um -12.540um -3.475um -12.455um
+
+ -3.905um -12.575um -3.820um -12.540um
+
+ -3.820um -12.575um -3.560um -12.540um
+
+ -3.560um -12.555um -3.475um -12.540um
+
+ -3.560um -12.575um -2.975um -12.555um
+
+ -4.045um -12.375um -3.335um -12.315um
+
+ -4.045um -12.435um -3.335um -12.375um
+
+ -4.045um -12.375um -3.905um -12.315um
+
+ -4.045um -12.435um -3.905um -12.375um
+
+ -3.475um -12.375um -3.335um -12.315um
+
+ -3.475um -12.435um -3.335um -12.375um
+
+ -3.475um -12.435um -2.835um -12.415um
+
+ -2.975um -12.435um -2.835um -12.415um
+
+ -2.975um -13.025um -2.835um -13.010um
+
+ -2.975um -13.025um -2.835um -13.010um
+
+ -3.115um -12.885um -2.975um -12.870um
+
+ -3.115um -12.885um -2.975um -12.870um
+
+ 2.835um -12.595um 2.975um -12.575um
+
+ 2.835um -12.595um 2.975um -12.575um
+
+ 2.975um -12.455um 3.115um -12.435um
+
+ 2.975um -12.455um 3.115um -12.435um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ -3.920um -12.660um -3.820um -12.575um
+
+----------------------------------------
+
+
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/VoltageFollower.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 2 in 'VoltageFollower'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpgptz_tzv/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "VoltageFollower".
+Reading "Unnamed_0dd9c3d5".
+Reading "Unnamed_628ddb08".
+Reading "c_route_17635645".
+Reading "c_route_8f3df26e".
+Reading "c_route_17635645".
+Reading "c_route_8f3df26e".
+Reading "Unnamed_0dd9c3d5".
+Reading "Unnamed_628ddb08".
+[INFO]: Loading VoltageFollower
+
+Loading DRC CIF style.
+[INFO]: DONE with /tmp/tmpgptz_tzv/VoltageFollower.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "Unnamed_0dd9c3d5" (byte position 1854): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "Unnamed_628ddb08" (byte position 29618): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "VoltageFollower" (byte position 326): Cell "c_route_17635645" was already defined in this file.
+Error while reading cell "VoltageFollower" (byte position 326): Ignoring duplicate definition
+Error while reading cell "VoltageFollower" (byte position 1082): Cell "c_route_8f3df26e" was already defined in this file.
+Error while reading cell "VoltageFollower" (byte position 1082): Ignoring duplicate definition
+Error while reading cell "VoltageFollower" (byte position 1838): Cell "Unnamed_0dd9c3d5" was already defined in this file.
+Error while reading cell "VoltageFollower" (byte position 1838): Ignoring duplicate definition
+Error while reading cell "VoltageFollower" (byte position 29602): Cell "Unnamed_628ddb08" was already defined in this file.
+Error while reading cell "VoltageFollower" (byte position 29602): Ignoring duplicate definition
+
+VoltageFollower count: 
+
+----------------------------------------
+
+This layer can't abut or partially overlap between subcells
+
+----------------------------------------
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ -3.165um -0.930um -2.805um -0.670um
+
+ 4.105um 5.445um 4.365um 5.565um
+
+ 4.105um 5.565um 4.575um 5.705um
+
+ 4.105um 5.445um 4.365um 5.565um
+
+ 4.105um 5.565um 4.575um 5.705um
+
+ 4.105um 5.565um 4.575um 5.705um
+
+ 4.315um 5.705um 4.575um 5.825um
+
+ 4.105um 5.565um 4.575um 5.705um
+
+ 4.315um 5.705um 4.575um 5.825um
+
+----------------------------------------
+
+Deep N-well spacing < 6.3um (dnwell.3)
+
+----------------------------------------
+
+ -4.630um 5.180um 0.000um 11.085um
+
+ 0.000um 5.180um 4.630um 11.085um
+
+----------------------------------------
+
+Via1 width < 0.26um (via.1a + 2 * via.4a)
+
+----------------------------------------
+
+ 4.230um 5.790um 4.315um 5.825um
+
+ 4.105um 5.710um 4.315um 5.790um
+
+ 4.105um 5.705um 4.315um 5.710um
+
+----------------------------------------
+
+
+
+Error running session with /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/PushPull.convo: You may have provided a parameter that does not exist for this function OR there may be some other error
+Traceback (most recent call last):
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 227, in parse_user_params
+    mytree = list(self.__grammar_parser.parse(tokens))[0]
+IndexError: list index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/validate_synthetic_data.py", line 28, in instantiate_convo
+    session_code = glayout.syntaxer.dynamic_load.run_session(load_conversation=convo_file, restore_and_exit=True)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 52, in run_session
+    convo, loop_count = reload_saved_convo(load_conversation)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/dynamic_load.py", line 37, in reload_saved_convo
+    convo.process_next_input(line)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/process_input.py", line 363, in process_next_input
+    saveresponse = self.process_place_sentence(sentence)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/process_input.py", line 257, in process_place_sentence
+    self.code.update_place_table(genid, params, comp_name)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 778, in update_place_table
+    self.bulk_action_table.append(PlaceCell(self.toplvl_name, self.search_import_table(generator_id), component_name, user_input_parameters, self.get_params_and_vars()))
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 522, in __init__
+    self.params = ParametersList(generator_handle).parse_user_params(known_paramsORvars, user_input_parameters)
+  File "/home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/syntaxer/relational.py", line 229, in parse_user_params
+    raise ValueError("You may have provided a parameter that does not exist for this function OR there may be some other error") from serr
+ValueError: You may have provided a parameter that does not exist for this function OR there may be some other error
+
+Error running DRC on /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/PushPull.convo
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/CurrentMirrorNtypeInterdigitated.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 1 in 'CurrentMirrorNtypeInterdigitated'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpqsk1ku8q/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "CurrentMirrorNtypeInterdigitated".
+Reading "transformed_77e9e90b".
+Reading "Unnamed_95e106f4$1".
+Reading "straight_route_083cb6be".
+Reading "straight_route_0544ae0c".
+Reading "straight_route_3ea46586".
+Reading "straight_route_dc21dfc5".
+Reading "straight_route_ee670723".
+Reading "straight_route_01c27922".
+Reading "straight_route_578f90a8".
+Reading "straight_route_30194397".
+Reading "straight_route_9f9dba82".
+Reading "c_route_eb9ccd05".
+Reading "via_stack_a0523b66_transformed_a1f98276".
+Reading "straight_route_578f90a8".
+Reading "c_route_eb9ccd05".
+Reading "transformed_77e9e90b".
+Reading "straight_route_01c27922".
+Reading "via_stack_a0523b66_transformed_a1f98276".
+Reading "straight_route_ee670723".
+Reading "straight_route_3ea46586".
+Reading "straight_route_083cb6be".
+Reading "straight_route_30194397".
+Reading "straight_route_dc21dfc5".
+Reading "Unnamed_95e106f4$1".
+Reading "straight_route_9f9dba82".
+Reading "straight_route_0544ae0c".
+[INFO]: Loading CurrentMirrorNtypeInterdigitated
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmpqsk1ku8q/CurrentMirrorNtypeInterdigitated.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "transformed_77e9e90b" (byte position 36190): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 674): Cell "straight_route_578f90a8" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 674): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 790): Cell "c_route_eb9ccd05" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 790): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 1550): Cell "transformed_77e9e90b" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 1550): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36436): Cell "straight_route_01c27922" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36436): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36576): Cell "via_stack_a0523b66_transformed_a1f98276" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36576): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36828): Cell "straight_route_ee670723" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36828): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36952): Cell "straight_route_3ea46586" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 36952): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37076): Cell "straight_route_083cb6be" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37076): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37200): Cell "straight_route_30194397" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37200): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37324): Cell "straight_route_dc21dfc5" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37324): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37442): Cell "Unnamed_95e106f4$1" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 37442): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 78062): Cell "straight_route_9f9dba82" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 78062): Ignoring duplicate definition
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 78186): Cell "straight_route_0544ae0c" was already defined in this file.
+Error while reading cell "CurrentMirrorNtypeInterdigitated" (byte position 78186): Ignoring duplicate definition
+
+
+
+loaded conversation from /home/chetanya/openfasoc_up/OpenFASOC_sims/openfasoc/generators/glayout/glayout/llm/syntax_data/convos/ClassBPushPullInterdigitated.convo
+-------------------------------------------------------------------------------------------------
+mappedpdk.py:467: UserWarning: Unnamed cells, 1 in 'ClassBPushPullInterdigitated'
+  layout.write_gds(gds_path)
+
+Defaulting to stale magic_commands.tcl
+
+Magic 8.3 revision 464 - Compiled on Sat Mar  9 23:18:29 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/tmp/tmpyvtaw_mg/magic_commands.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: library
+Reading "ClassBPushPullInterdigitated".
+Reading "transformed_da4f151f".
+Reading "Unnamed_7dd156fe$1".
+Reading "straight_route_da08c66d".
+Reading "straight_route_170025c6".
+Reading "via_stack_082765cc_transformed_bee75200".
+Reading "straight_route_5155c86f".
+Reading "straight_route_170025c6".
+Reading "straight_route_5155c86f".
+Reading "straight_route_da08c66d".
+Reading "transformed_da4f151f".
+Reading "via_stack_082765cc_transformed_bee75200".
+Reading "Unnamed_7dd156fe$1".
+[INFO]: Loading ClassBPushPullInterdigitated
+
+Loading DRC CIF style.
+No errors found.
+[INFO]: DONE with /tmp/tmpyvtaw_mg/ClassBPushPullInterdigitated.rpt
+
+Using technology "sky130A", version 1.0.471-0-g97d0844
+
+Soft errors: 
+Error while reading cell "transformed_da4f151f" (byte position 35350): Unknown layer/datatype in boundary, layer=64 type=44
+Error while reading cell "transformed_da4f151f" (byte position 534): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+Error while reading cell "transformed_da4f151f" (byte position 286): Rewinding input.  Cells may have been instanced before they were defined.  Consider using "gds ordering on".
+
+# exit
+
+Script done on 2024-06-28 12:23:32+00:00 [COMMAND_EXIT_CODE="0"]
